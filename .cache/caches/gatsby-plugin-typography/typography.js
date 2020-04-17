@@ -1,1 +1,1 @@
-module.exports = require("/home/qianh/workspace/personal/blog/gatsby-blog/src/utils/typography")
+module.exports = require("/home/qianh/workspace/personal/blog/gatsby-starter-blog/src/utils/typography")
