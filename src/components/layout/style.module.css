@@ -1,0 +1,26 @@
+.main{
+    margin: 3rem auto;
+    display: flex;
+    padding: 0 1rem;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.content{
+    flex: 1 1 0%;
+    box-shadow: 2px 4px 5px rgba(3,3,3,.2);
+}
+.sidebar{
+    flex-basis: 280px;
+    margin-left: 20px;
+    width: 5rem;
+    box-shadow: 2px 4px 5px rgba(3,3,3,.2);
+}
+@media only screen and (max-width: 768px){
+    .main {
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        margin: 2rem auto;
+    }
+}

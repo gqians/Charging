@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/qianh/workspace/personal/blog/gatsby-starter-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Gatsby Starter Blog","short_name":"GatsbyJS","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png"},
+      options: {"plugins":[],"name":"王霸之气","short_name":"QH","start_url":"/","background_color":"#ffffff","theme_color":"var(--color-1)","display":"minimal-ui","icon":"content/assets/gatsby-icon.png"},
     },{
       plugin: require('/home/qianh/workspace/personal/blog/gatsby-starter-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
