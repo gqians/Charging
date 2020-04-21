@@ -1,4 +1,5 @@
 export default {
+	limit:10,
     menuNavs: [
         {title: '主页', link: '/'},
         {title: '标签', link: '/tags'},
@@ -34,6 +35,8 @@ export default {
 				'hsl(var(--color-h), calc(calc(var(--color-s) - calc(var(--color-s-step) * 3)) * 1%), calc(calc(var(--color-l) - calc(var(--color-l-step) * 3)) * 1%))',
 		'--color-9':
 				'hsl(var(--color-h), calc(calc(var(--color-s) - calc(var(--color-s-step) * 4)) * 1%), calc(calc(var(--color-l) - calc(var(--color-l-step) * 4)) * 1%))',
+		'--color-10':
+				'hsl(var(--color-h), 0%, calc(calc(var(--color-l) - calc(var(--color-l-step) * 4)) * 1%))',
 		'--color-primary': 'var(--color-5, #4da1c0)',
 
 		/* background colour */
@@ -64,6 +67,8 @@ export default {
 				'hsl(var(--color-bg-h), calc(calc(var(--color-bg-s) + calc(var(--color-bg-s-step) * 8)) * 1%), calc(calc(var(--color-bg-l) + calc(var(--color-bg-l-step) * 8)) * 1%))',
 		'--color-bg-10':
 				'hsl(var(--color-bg-h), 10%,89% )',
+		'--color-bg-11':
+				'hsl(var(--color-bg-h), 80%,89% )',
 		'--color-bg': 'var(--color-bg-10)',
 
 		/* nav */

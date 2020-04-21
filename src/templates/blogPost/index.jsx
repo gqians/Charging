@@ -5,7 +5,6 @@ import Bio from "../../components/layout/bio"
 import Layout from "../../components/layout"
 import SEO from "../../components/layout/seo"
 import { rhythm, scale } from "../../utils/typography"
-
 import s from './style.module.css'
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {

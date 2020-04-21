@@ -6,6 +6,9 @@
     border-left: .5rem solid #ccc;
     cursor: pointer;
 }
+.section{
+    color: var(--color-10)
+}
 .article:hover{
     border-left: .5rem solid var(--color-bg-6);
 }

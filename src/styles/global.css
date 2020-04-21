@@ -1,0 +1,18 @@
+html{
+    font-size: 16px;
+}
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+  margin: 0;
+}
+a{
+    box-shadow: none;
+}
+/* 媒体查询 自适应 */
+@media only screen and (max-width: 768px) {
+  html { font-size: 85% !important }
+}

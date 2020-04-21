@@ -1,5 +1,7 @@
 const path = require(`path`)
+const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const createPaginatedPages = require('gatsby-paginate')
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -7,23 +9,29 @@ exports.createPages = async ({ graphql, actions }) => {
   const blogPost = path.resolve(`./src/templates/blogPost/index.jsx`)
   const result = await graphql(
     `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
+    {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+      ) {
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+              tags
+              date(
+                formatString: "YYYY年MM月DD日"
+                locale: "zh-cn"
+              )              
             }
+            fields {
+              slug
+            }
+            excerpt
           }
         }
       }
+    }
     `
   )
 
@@ -33,6 +41,38 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
+  createPaginatedPages({
+    edges: posts,
+    createPage: createPage,
+    pageTemplate: 'src/templates/index.jsx',
+    pageLength: 3, // This is optional and defaults to 10 if not used
+    pathPrefix: '', // This is optional and defaults to an empty string if not used
+    context: {}, // This is optional and defaults to an empty object if not used
+  })
+   // Tag pages:
+   const tagTemplate = path.resolve('./src/templates/tags/index.jsx')
+   let tags = []
+   // Iterate through each post, putting all found tags into `tags`
+   _.each(posts, edge => {
+     if (_.get(edge, "node.frontmatter.tags")) {
+       tags = tags.concat(edge.node.frontmatter.tags)
+     }
+   })
+   // Eliminate duplicate tags
+   tags = _.uniq(tags)
+   console.log(tags)
+    // Make tag pages
+    tags.forEach(tag => {
+      console.log(_.kebabCase(tag))
+      createPage({
+        path: `/tags/${_.kebabCase(tag)}/`,
+        component: tagTemplate,
+        context: {
+          tag,
+        },
+      })
+    })
+
 
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node

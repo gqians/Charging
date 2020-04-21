@@ -5,7 +5,7 @@ import Header from './header'
 import { rhythm } from "../../utils/typography"
 import config from '../../utils/config'
 import s from './style.module.css'
-
+import '../../styles/global.css'
 
 const Layout = ({ location, title, children }) => {
   useEffect(()=>{

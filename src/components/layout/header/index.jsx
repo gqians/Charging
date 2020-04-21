@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link,useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 import { rhythm } from "../../../utils/typography"
+import Pag from '../../pagination'
 import s from './style.module.css'
 import config from '../../../utils/config'
 function Header(){
@@ -29,16 +29,16 @@ function Header(){
             {data.site.siteMetadata.author.name}
             </span>
             <br/>
-            <sapn className={s.secondLine}>
+            <span className={s.secondLine}>
             {data.site.siteMetadata.description}
-            </sapn>
+            </span>
         </div>
         <div className={s.menu}>
             {
-                config.menuNavs.map((item)=>{
+                config.menuNavs.map((item,key)=>{
                     return(
-                        <span className={s.link}>
-                            <Link style={{ boxShadow: `none` }} to={item.link}>
+                        <span className={s.link} key={key}>
+                            <Link className={s.link} style={{ boxShadow: `none` }} to={item.link}>
                                 {item.title}
                             </Link>
                         </span>
