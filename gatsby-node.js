@@ -73,6 +73,29 @@ exports.createPages = async ({ graphql, actions }) => {
       })
     })
 
+    const archives = []
+    try {
+      const getDate = d => d.substr(0, d.indexOf("月") +1)
+      const obj = _.groupBy(posts, (v) => getDate(v.node.frontmatter.date))
+      _.mapKeys(obj, (v,k) => archives.push({ month: k, length: v.length }))
+    } catch (e) {
+      console.log('has error*')
+    }
+
+    archives.forEach(({ month }) => {
+      createPage({
+        path: `/archives/${_.kebabCase(month.replace(/[\u4e00-\u9fa5]/g, '-'))}/`,
+        component: path.resolve(`./src/templates/archives/index.jsx`),
+        context: {
+          month,
+        },
+      })
+    })
+
+
+
+
+
 
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node

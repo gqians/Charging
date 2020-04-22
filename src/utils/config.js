@@ -5,7 +5,20 @@ export default {
         {title: '标签', link: '/tags'},
         {title: '归档', link: '/archives'},
         // {title: '图片', link: '/image-view'},
-      ],
+	  ],
+	  sideBar:[
+		  {
+			title:'书签',
+			item:[
+				{title:'百度',link:'www.baidu.com'},
+				{title:'网易',link:'www.163.com'},
+				{title:'网易',link:'www.163.com'},
+				{title:'网易',link:'www.163.com'},
+				{title:'网易',link:'www.163.com'},
+				{title:'网易',link:'www.163.com'}
+			]
+		 }
+	  ],
 	theme: {
         'font-size': '16px',
         'font-family': 'var(--font-primary)',

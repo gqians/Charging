@@ -18,13 +18,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
+      <article className={s.article}>
         <header>
           <h1
             style={{
               marginTop: rhythm(1),
               marginBottom: 0,
             }}
+            className={s.title}
           >
             {post.frontmatter.title}
           </h1>
@@ -34,8 +35,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               display: `block`,
               marginBottom: rhythm(1),
             }}
+            className={s.time}
           >
-            {post.frontmatter.date}
+            发布于{post.frontmatter.date}
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -43,6 +45,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           style={{
             marginBottom: rhythm(1),
           }}
+          className={s.hr}
         />
         <footer>
           {/* <Bio /> */}

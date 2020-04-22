@@ -1,0 +1,15 @@
+.article{
+    padding: 0 2rem;
+}
+.title{
+    color:var(--color-2);
+}
+.time{
+    border-bottom: solid var(--color-2);
+    text-align: right;
+    color: var(--color-10);
+    font-size: 1.2rem;
+}
+.hr{
+    background-color: var(--color-2);
+}
