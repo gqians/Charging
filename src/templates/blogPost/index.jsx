@@ -58,9 +58,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             display: `flex`,
             flexWrap: `wrap`,
             justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
+            listStyle: `none`
           }}
+          className={s.ul}
         >
           <li>
             {previous && (

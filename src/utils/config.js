@@ -1,3 +1,4 @@
+import path from 'path'
 export default {
 	limit:10,
     menuNavs: [
@@ -10,15 +11,16 @@ export default {
 		  {
 			title:'书签',
 			item:[
-				{title:'百度',link:'www.baidu.com'},
-				{title:'网易',link:'www.163.com'},
-				{title:'网易',link:'www.163.com'},
-				{title:'网易',link:'www.163.com'},
-				{title:'网易',link:'www.163.com'},
-				{title:'网易',link:'www.163.com'}
+				{title:'百度',link:'https://www.baidu.com'},
+				{title:'网易',link:'https://www.baidu.com'},
+				{title:'网易',link:'https://www.baidu.com'},
+				{title:'网易',link:'https://www.baidu.com'},
+				{title:'网易',link:'https://www.baidu.com'},
+				{title:'网易',link:'https://www.baidu.com'}
 			]
 		 }
 	  ],
+	musicPath:'./static/少年锦时.mp3',
 	theme: {
         'font-size': '16px',
         'font-family': 'var(--font-primary)',

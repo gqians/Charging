@@ -12,6 +12,36 @@ h4 {
 a{
     box-shadow: none;
 }
+#audio-box {
+  position: fixed;
+  right: 3%;
+  bottom: 30%;
+  width: 50px;
+  height: 50px;
+ }
+ #audio-box audio {
+   visibility: hidden;
+ }
+ .audio-muted {
+   content: '';
+   display: block;
+   border-bottom: 5px solid white;
+   transform: rotate(-45deg);
+   transform-origin: left;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 130%;
+ }
+ .audio-btn {
+   width: 50px;
+   height: 50px;
+   /* background-image: url(/images/site-icons/music.png); */
+   display: inline-block;
+   border-radius: 10px;
+   background-color: #fe6400;
+ }
+ 
 /* 媒体查询 自适应 */
 @media only screen and (max-width: 768px) {
   html { font-size: 85% !important }

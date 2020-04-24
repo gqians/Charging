@@ -13,3 +13,6 @@
 .hr{
     background-color: var(--color-2);
 }
+.ul{
+    padding: 0 2rem;
+}

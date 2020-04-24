@@ -3,6 +3,7 @@ import React ,{useEffect} from "react"
 
 import Header from './header'
 import SideBar from './sideBar'
+import ToTop from './toTop'
 import { rhythm } from "../../utils/typography"
 import config from '../../utils/config'
 import s from './style.module.css'

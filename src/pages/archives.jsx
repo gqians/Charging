@@ -34,7 +34,7 @@ const Page = ({
         <h2><span role="img" aria-label="img">👻</span> 文章归档</h2>
       </div>
       <div className={styles.gridBox}>
-        {items.map(item => <Item key={item.year} item={item} />)}
+        {items.map((item,key) => <Item key={key} item={item} />)}
       </div>
     </Layout>
   )
