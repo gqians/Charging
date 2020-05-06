@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-tags-jsx","path":"/tags/","result":{"data":{"site":{"siteMetadata":{"title":"QDS"}},"allMarkdownRemark":{"group":[{"fieldValue":"test","totalCount":2}]}},"pageContext":{}}}
+{"componentChunkName":"component---src-pages-tags-jsx","path":"/tags/","result":{"data":{"site":{"siteMetadata":{"title":"QDS"}},"allMarkdownRemark":{"group":[{"fieldValue":"test","totalCount":1},{"fieldValue":"test test2","totalCount":1}]}},"pageContext":{}}}
