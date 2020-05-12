@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 May 2020 11:26:48 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 May 2020 13:56:22 GMT</lastBuildDate><item><title><![CDATA[新公司第一天]]></title><description><![CDATA[上午 或许是太久没有上班了吧。还记得上次上班还是在2月初，那个时候刚刚在家上班一周就被停掉了，这一停就停到到了现在。这家公司是大概是在…]]></description><link>https://qian4321.github.io/Charging/life_newCompany/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/life_newCompany/</guid><pubDate>Tue, 12 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;上午&lt;/h2&gt;
+&lt;p&gt;或许是太久没有上班了吧。还记得上次上班还是在2月初，那个时候刚刚在家上班一周就被停掉了，这一停就停到到了现在。这家公司是大概是在4月份电话面试的，还挺顺利的。因为今年应届生的找工作难度确实挺大的，所以这份工作我明知可能不太适合我，我也坦然接受了。&lt;/p&gt;
+&lt;h2&gt;中午&lt;/h2&gt;
+&lt;p&gt;订好的是下午两点去报到，结果早上六点就起床了，比面试还紧张。因为我从来没有实地去看过这家公司，这种未知的恐惧也一直伴随了我一上午。本来上午打算好好看看Gis的一些东西，但确实静不下心来，最后也只能看看java。好在以前C#的底子还是比较好的，看一些基础知识基本都一致，只是框架要好好学学。中午没心情吃饭，喝了一瓶酸奶就过去公司了。&lt;/p&gt;
+&lt;h2&gt;下午&lt;/h2&gt;
+&lt;p&gt;因为不熟悉路线，花了大概两个小时才到达了公司。公司不大，但员工是真的年轻，反正至少看上去还是挺有活力的。坐着等了一会儿，看见了在假期中一直和我联系但没见过面的老师，还慢亲切的，瞬间笼罩了一上午的恐惧就消失不见了。然后谈了谈工作上的事，签了实习合同就开始工作了。我带了两台电脑去，一台用于Linux开发，一台用于office和微信（请腾讯爸爸吧微信网页端重新开出来吧，我给你充Q币）。主要是工作电脑带不动虚拟机，实习生比较穷，买不起好的电脑,太难了。开始装一些工作要用的软件时，Docker崩了，我也崩了。还是第一次遇到这种情况，解决不了就只有重新安装咯，结果卸载还出问题了。结果一下午我就花在解决Docker上了，好在在下班之前解决完了这些东西。下班体验了一下成都的一号线，随后就发誓以后绝对不坐高峰期的一号线了，太挤。大概挤了一个多小时，才回到了家。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;我也不会因为我自己进入了小公司改变我对于小公司的看法。我依然认为能进大公司，尽量进大公司。我现在仍然保留着在上家比较大的公司中养成的工作习惯，我觉得那是受益匪浅的，更可况我还只是实习。但今年情况确实不太好，也有可能是我不太喜欢面试吧，但既然进入了小公司，就要尽量去吸收他的精华。小公司的养分是足够有能力去吸收的，因为他们可能不会像大公司那样去封装自己的代码库，用到的都是一些常见的开源库。这样就可以提供很多学习机会，能做到就是把握每一次的机会，提升自己。&lt;/p&gt;
+&lt;h2&gt;近期愿望&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;转正后租一个带空调的单间&lt;/li&gt;
+&lt;li&gt;尽快上手开发，实现自己的价值&lt;/li&gt;
+&lt;li&gt;希望大家都能答辩顺利通过&lt;/li&gt;
+&lt;li&gt;最重要的一点：瘦下来、瘦下来、瘦下来（过年长胖是对父母的尊重，这是这年有点过于的长了…）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 440px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/Charging/static/665a155c3fa20affa0eec73402d1a195/fe55e/jinli.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAEDAgQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQMEAv/aAAwDAQACEAMQAAABujFK+UsN1qSmbtAj/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIEAAMREjIx/9oACAEBAAEFAkwgW45dgNmfSpD4tnqd7KFJz//EABcRAAMBAAAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8BaIsp/8QAGREBAAIDAAAAAAAAAAAAAAAAAQAQERIx/9oACAECAQE/AQzRwmpP/8QAHBABAQACAgMAAAAAAAAAAAAAAQACMQMhESJB/9oACAEBAAY/AnrUHJh4GfWzYT7qdbjG4yOi/8QAHxAAAgICAQUAAAAAAAAAAAAAAREAUTFBECFhkaGx/9oACAEBAAE/Iew3zHlX0NQugVNDyPsCphg3vixIQABMrcCE4AUU1FT/2gAMAwEAAgADAAAAELA3w//EABgRAQEBAQEAAAAAAAAAAAAAAAEAESFR/9oACAEDAQE/ECGMDluja9v/xAAZEQEAAwEBAAAAAAAAAAAAAAABABEhMfD/2gAIAQIBAT8QMFnYlZcIUeyNvCf/xAAcEAEAAwEAAwEAAAAAAAAAAAABABEhMUFRYZH/2gAIAQEAAT8QN7kmx1LVfrMwFGOnlzFGnXYRAdYr8zWwnqCOo6Txmbx1KU+/cBvFUfMiumQF+VE//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/Charging/static/665a155c3fa20affa0eec73402d1a195/fe55e/jinli.jpg&quot;
+        srcset=&quot;/Charging/static/665a155c3fa20affa0eec73402d1a195/a80bd/jinli.jpg 148w,
+/Charging/static/665a155c3fa20affa0eec73402d1a195/1c91a/jinli.jpg 295w,
+/Charging/static/665a155c3fa20affa0eec73402d1a195/fe55e/jinli.jpg 440w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://qian4321.github.io/Charging/new-beginnings/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
@@ -10,12 +53,8 @@ didn’t listen. She packed her seven versalia, put her initial into the belt an
 made herself on the way.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Well uncritical so misled&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;Well uncritical so misled&lt;/li&gt;
 &lt;li&gt;this is very interesting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
