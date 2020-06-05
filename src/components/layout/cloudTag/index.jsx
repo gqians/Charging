@@ -23,7 +23,11 @@ class CloudTag extends React.PureComponent{
         tc?.items.forEach((ele)=>{
             console.log(ele.el.innerText);
             const a = document.createElement('a');
-            a.setAttribute('href', `/tags/${ele.el.innerText}`);
+            if(document.domain === 'localhost'){
+                a.setAttribute('href', `${window.location.host}/tags/${ele.el.innerText}`);
+            }else{
+                a.setAttribute('href', `${window.location.host}/Charging/tags/${ele.el.innerText}`);
+            }
             a.textContent = ele.el.innerText;
             ele.el.textContent=''
             ele.el.appendChild(a);
