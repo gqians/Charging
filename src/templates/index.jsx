@@ -14,7 +14,6 @@ const BlogIndex = ({ data, location ,pageContext}) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = pageContext.group
    //   const pageContext = data.allMarkdownRemark.pageInfo
-  console.log(pageContext)
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="王霸之气" />

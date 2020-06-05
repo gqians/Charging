@@ -18,6 +18,9 @@ export default {
 				{title:'网易',link:'https://www.baidu.com'},
 				{title:'网易',link:'https://www.baidu.com'}
 			]
+		 },
+		 {
+			 title:'标签云'
 		 }
 	  ],
 	musicPath:'./static/少年锦时.mp3',

@@ -18,7 +18,6 @@ const Page = ({ pageContext, data }) => {
   const { month } = pageContext
   const posts = data.allMarkdownRemark.edges
   const items = posts.filter(v => v.node.frontmatter.date.indexOf(month) > -1)
-
   return (
     <Layout>
       <div class={styles.tagTitle}>

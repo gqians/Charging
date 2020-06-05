@@ -1,13 +1,24 @@
 .sidebar{
-    margin: 0.5rem;
-    background-color: white;
-    padding: 1rem;
     font-size: 1.3rem;
+}
+.sideBarItem{
+    margin-bottom: 0.5rem;
+    background-color: white;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    box-shadow: 2px 4px 5px rgba(3,3,3,.2);
+}
+.content{
+    
 }
 .title{
     color:var(--color-2);
     text-align: center;
     border-bottom: solid var(--color-10);
+}
+.last{
+    position: sticky;
+    top: 0;
 }
 .a{
     display: inline-block;
