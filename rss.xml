@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Jun 2020 03:56:22 GMT</lastBuildDate><item><title><![CDATA[学习插值(一)]]></title><description><![CDATA[关于MeteoInfoLab MeotoInfoLab对于处理气象相关的工作是十分有用且高效的。MeotoInfoLab是使用的jython脚本进行开发，是一个好消息但仔细想想也很难让人接受。可以使用基本Python3的语法但无法使用丰富的cpython包，但也MatLab…]]></description><link>https://qian4321.github.io/Charging/grid-interpolate(1)/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/grid-interpolate(1)/</guid><pubDate>Thu, 04 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;关于MeteoInfoLab&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Jun 2020 04:48:06 GMT</lastBuildDate><item><title><![CDATA[学习插值(一)]]></title><description><![CDATA[关于MeteoInfoLab MeotoInfoLab对于处理气象相关的工作是十分有用且高效的。MeotoInfoLab是使用的jython脚本进行开发，是一个好消息但仔细想想也很难让人接受。可以使用基本Python3的语法但无法使用丰富的cpython包，但也MatLab…]]></description><link>https://qian4321.github.io/Charging/grid-interpolate(1)/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/grid-interpolate(1)/</guid><pubDate>Thu, 04 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;关于MeteoInfoLab&lt;/h2&gt;
 &lt;p&gt;MeotoInfoLab对于处理气象相关的工作是十分有用且高效的。MeotoInfoLab是使用的jython脚本进行开发，是一个好消息但仔细想想也很难让人接受。可以使用基本Python3的语法但无法使用丰富的cpython包，但也MatLab、Numpy、Matplotlib实现了一些函数，可以满足部分的需求。具体的信息以及学习的脚本可以看&lt;a href=&quot;http://bbs.06climate.com/forum.php?mod=viewthread&amp;#x26;tid=36151&amp;#x26;highlight=meteoinfolab&quot;&gt;气象家园&lt;/a&gt;相关内容。&lt;/p&gt;
 &lt;h2&gt;使用关于MeteoInfoLab实现插值&lt;/h2&gt;
 &lt;p&gt;在这里借助气象家园的插值脚本进行改写，可以多看看的&lt;a href=&quot;http://bbs.06climate.com/forum.php?mod=viewthread&amp;#x26;tid=36422&amp;#x26;extra=page%3D1&quot;&gt;原始脚本=》》&lt;/a&gt;。&lt;/p&gt;
@@ -32,7 +32,7 @@ xlim(72, 136)
 ylim(16, 55)&lt;/code&gt;
         &lt;/deckgo-highlight-code&gt;
       
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;其中要注意将list格式数据转换为NDArray类型的，不然会报错 。&lt;/code&gt;其中的插值目标点的间距可以自行修改，本脚本采用的是0.0625。cressman和idw的对应参数(radius)也可以进行调整。levs是图例的范围和下面的cols一一对应。最后展示运行数据图&lt;span
+&lt;p&gt;&lt;span style=&quot;color: green&quot;&gt; 其中要注意将list格式数据转换为NDArray类型的，不然会报错 &lt;/span&gt;。其中的插值目标点的间距可以自行修改，本脚本采用的是0.0625。cressman和idw的对应参数(radius)也可以进行调整。levs是图例的范围和下面的cols一一对应。最后展示运行数据图&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -196,19 +196,13 @@ to its own, safe country. But nothing the copy said could convince her and so it
 didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
 with Longe and Parole and dragged her into their agency, where they abused her
 for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 2/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 2/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
@@ -238,7 +232,13 @@ chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 7/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 7/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 2/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 2/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 9/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 9/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
@@ -250,7 +250,7 @@ chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 9/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 9/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 7/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 7/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
