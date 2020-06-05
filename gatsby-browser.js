@@ -4,4 +4,5 @@ import "typeface-merriweather"
 
 import "prismjs/themes/prism.css"
 import "./src/styles/global.css"
-import 'prismjs/themes/prism-dark.css'
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();

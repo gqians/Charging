@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        pedantic: false,
+        pedantic: true,
         plugins: [
           {
             resolve: `gatsby-remark-images`,
@@ -44,7 +44,13 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-highlight-code`,
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: 'carbon',
+              theme: 'lucario'
+            }
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
