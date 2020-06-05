@@ -3,8 +3,8 @@
 <h2>使用关于MeteoInfoLab实现插值</h2>
 <p>在这里借助气象家园的插值脚本进行改写，可以多看看的<a href="http://bbs.06climate.com/forum.php?mod=viewthread&#x26;tid=36422&#x26;extra=page%3D1">原始脚本=》》</a>。</p>
 <h3>分析脚本</h3>
-<p>原始脚本中最关键的函数就是插值函数griddata(),主要需要两个参数：坐标的经度和坐标的纬度组成的坐标点(<em>list</em>),以及坐标相对应的特征值，比如温度、风速、降水等信息(<em>array_like</em>)。除外还需要插值的目标点坐标，插值的方法（idw | cressman | nearest | inside | inside<em>min
-| inside</em>max | inside_count | surface | barnes）以及插值方式对应所需要的参数。但调好这些参数确实需要一些经验，对于我这种小白就用默认的值吧。</p>
+<p>原始脚本中最关键的函数就是插值函数griddata(),主要需要两个参数：坐标的经度和坐标的纬度组成的坐标点(<em>list</em>),以及坐标相对应的特征值，比如温度、风速、降水等信息(<em>array_like</em>)。除外还需要插值的目标点坐标，插值的方法（idw | cressman | nearest | inside | inside_min
+| inside_max | inside_count | surface | barnes）以及插值方式对应所需要的参数。但调好这些参数确实需要一些经验，对于我这种小白就用默认的值吧。</p>
 <h3>具体实现</h3>
 <p>数据点经度是以范围为[73.03125, 136.96875]以0.0625间距的点，数据点纬度是以范围为[18.03125, 55.96875]以0.0625间距的点。对应的点坐标数据存储在txt文件中以空格分隔。</p>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">lat <span class="token operator">=</span> arange<span class="token punctuation">(</span><span class="token number">18.03125</span><span class="token punctuation">,</span> <span class="token number">55.96875</span><span class="token operator">+</span><span class="token number">0.0625</span><span class="token punctuation">,</span><span class="token number">0.0625</span><span class="token punctuation">,</span><span class="token string">'float64'</span><span class="token punctuation">)</span>  <span class="token comment">#纬度</span>
