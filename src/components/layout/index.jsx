@@ -8,12 +8,12 @@ import { rhythm } from "../../utils/typography"
 import config from '../../utils/config'
 import s from './style.module.css'
 import '../../styles/global.css'
-
+import BackToTop from './backToTop'
 const Layout = ({ location, title, children }) => {
   useEffect(()=>{
-    Object.entries(config.theme).forEach(([key, value]) => {
-      document.documentElement.style.setProperty(key, value);
-    });
+    // Object.entries(config.theme).forEach(([key, value]) => {
+    //   document.documentElement.style.setProperty(key, value);
+    // });
   },[]);
   return (
     <div>
@@ -24,7 +24,8 @@ const Layout = ({ location, title, children }) => {
         {children}
         </div>
         <div className={s.sidebar}>
-          <SideBar></SideBar>
+          <SideBar/>
+          <BackToTop/>
         </div>
       </main>
       <footer className={s.footer}>
