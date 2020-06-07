@@ -1,6 +1,5 @@
 import React ,{useEffect} from "react"
 // import { Link } from "gatsby"
-
 import Header from './header'
 import SideBar from './sideBar'
 import ToTop from './toTop'

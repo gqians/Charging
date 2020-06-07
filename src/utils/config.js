@@ -21,6 +21,9 @@ export default {
 		 },
 		 {
 			 title:'标签云'
+		 },
+		 {
+			 title:'主题'
 		 }
 	  ],
 	musicPath:'./static/少年锦时.mp3',
