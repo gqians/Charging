@@ -7,7 +7,7 @@
 }
 .content{
     flex: 1 1 0%;
-    box-shadow: 2px 4px 5px rgba(3,3,3,.2);
+    box-shadow:2px 3px 3px var(--color-2);
 }
 .sidebar{
     flex-basis: 280px;
