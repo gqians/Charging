@@ -4,7 +4,7 @@
     background-color: var(--color-bg-2);
     box-shadow: 2px 4px 5px rgba(3,3,3,.2);
     padding: 2em 0 1em;
-    background-image: url('../../../../static/reborn_3.jpg');
+    background-image: url('../../../../static/reborn_3.webp');
     background-size:cover;  
     background-repeat: no-repeat;
 }
@@ -12,7 +12,7 @@
     width:7rem;
     height:7rem;
     margin-left: 7rem;
-    background-image: url('../../../../static/meiba.png');
+    background-image: url('../../../../static/meiba.webp');
     background-size:cover;  
     background-repeat: no-repeat;
     display: inline-block;
