@@ -26,7 +26,7 @@ class CloudTag extends React.PureComponent{
             if(document.domain === 'localhost'){
                 a.setAttribute('href', `http://localhost:8000/tags/${ele.el.innerText}`);
             }else{
-                a.setAttribute('href', `https://qian4321.github.io/Charging/tags/${ele.el.innerText}`);
+                a.setAttribute('href', `http://23.254.167.251:9977/Charging/tags/${ele.el.innerText}`);
             }
             a.textContent = ele.el.innerText;
             ele.el.textContent=''
