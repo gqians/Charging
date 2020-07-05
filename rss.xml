@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jun 2020 07:14:31 GMT</lastBuildDate><item><title><![CDATA[uni-app使用openlayers]]></title><description><![CDATA[1.概要 uniapp在提供了强大的多端转换功能的同时，也会极大的限制用户的操作并且为用户提供大量的bug。但对于节约成本和快速上线的app可以还是值得使用的。 2.使用openlayers 在使用openlayers的时候，和在一般的vue框架中使用没有太大的差别。但是uni…]]></description><link>https://qian4321.github.io/Charging/uniapp-openlayers/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/uniapp-openlayers/</guid><pubDate>Thu, 25 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;1.概要&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 05 Jul 2020 14:56:32 GMT</lastBuildDate><item><title><![CDATA[uni-app使用openlayers]]></title><description><![CDATA[1.概要 uniapp在提供了强大的多端转换功能的同时，也会极大的限制用户的操作并且为用户提供大量的bug。但对于节约成本和快速上线的app可以还是值得使用的。 2.使用openlayers 在使用openlayers的时候，和在一般的vue框架中使用没有太大的差别。但是uni…]]></description><link>https://qian4321.github.io/Charging/uniapp-openlayers/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/uniapp-openlayers/</guid><pubDate>Thu, 25 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;1.概要&lt;/h2&gt;
 &lt;p&gt;uniapp在提供了强大的多端转换功能的同时，也会极大的限制用户的操作并且为用户提供大量的bug。但对于节约成本和快速上线的app可以还是值得使用的。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;2.使用openlayers&lt;/h2&gt;
@@ -31,7 +31,171 @@
       
 &lt;p&gt;其中自己的ol.css文件存放地址在我的实验中目前只能放在static文件夹中，不然会出现mime不对应的问题。具体原因还需要进一步分析。&lt;/p&gt;
 &lt;h2&gt;3.结语&lt;/h2&gt;
-&lt;p&gt;目前通过这种方式使用openlayers实属无奈，以后还是尽量选择目标明确的框架吧。使用中其他的只有等后面遇到再来一一排雷吧。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[学习插值(一)]]></title><description><![CDATA[关于MeteoInfoLab MeotoInfoLab对于处理气象相关的工作是十分有用且高效的。MeotoInfoLab是使用的jython脚本进行开发，是一个好消息但仔细想想也很难让人接受。可以使用基本Python3的语法但无法使用丰富的cpython包，但也MatLab…]]></description><link>https://qian4321.github.io/Charging/grid-interpolate(1)/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/grid-interpolate(1)/</guid><pubDate>Thu, 04 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;关于MeteoInfoLab&lt;/h2&gt;
+&lt;p&gt;目前通过这种方式使用openlayers实属无奈，以后还是尽量选择目标明确的框架吧。使用中其他的只有等后面遇到再来一一排雷吧。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[openlayers实现遮罩的三种方式]]></title><description><![CDATA[在平时的gis开发常常会遇到做地图的遮罩层。有原生的图层数据的话可以直接在gis桌面程序中提取出需要展示的区域。但一些不太方便的图层可以直接使用openlayer提供的api进行遮罩层的开发。经过不同的实验提取出了三种不同的方式来实现遮罩层。
+ 使用LinearRing…]]></description><link>https://qian4321.github.io/Charging/clipping-Layer/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/clipping-Layer/</guid><pubDate>Thu, 04 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;在平时的gis开发常常会遇到做地图的遮罩层。有原生的图层数据的话可以直接在gis桌面程序中提取出需要展示的区域。但一些不太方便的图层可以直接使用openlayer提供的api进行遮罩层的开发。经过不同的实验提取出了三种不同的方式来实现遮罩层。
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/22c86/%E9%81%AE%E7%BD%A9%E5%9B%BE.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACHklEQVQ4y31Uy3LaQBDk/z/LTjnJJUX55rINelhISPveFRw7PSPAik3lMLUwzPZ298ywKfMJ9yKX+U7uhBA8YgyIKS01jLyKzf/A5Ey5aMSYGATzFiVb5GSZz9/ube6BXQGDFwDD08GZESUZpOAIJmE0pw+m/MlwzWYdkhMG3jpER1ZkNGePHPndGAx7siTTGBm0Ic+L/M0VbD6dv8tWyZkMeTkYHNoGbjoiWoOpc8pWHpqOzKWi924MfYgIMd0YTuMEZw9kNCE5yjtOaPaVyszZwfTC3CnjcRgImC+A86zd6w8HeD+p2cFO6NsWfbNDtgMy89F6JHZX/JTG9G8BST6TuXp4wVHJgh7FbD/yVZqfRY5HIDM/GfRdQ3bvCpCC+CngFpYq7HiEY12IcWFYLsiBLAI7asmkqWpU+52CRh/Q1h2q1wrnEuEpua52mIYDfv/6ie32D7xIL2sPywJa5jNlexYYBQ8srHbvBGwQjONZYehaspYRoo9mYO2oFtwA14MsMxXYQemcSCr0R+Ywk2n3UePx8QFvL68E5++0J+tvtIV3ci5ryRdA+hAoSWQd+w7j2KtvMshLA7x6qLNIFTIBYpWs4TJuqznUkAYRtK1rPP14wPPzlo9Q2odDv5PhTRwbq81KiV2mzPXO5/IFUNeNLDzHRmREx9PJJkR9/foHIdZ8Av27XSsPl8Yk0k8la4OWHU3KfF33de/X6/sX1eh2Nqw+sF0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;enter description here&quot;
+        title=&quot;enter description here&quot;
+        src=&quot;/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/fcda8/%E9%81%AE%E7%BD%A9%E5%9B%BE.png&quot;
+        srcset=&quot;/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/12f09/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 148w,
+/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/e4a3f/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 295w,
+/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/fcda8/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 590w,
+/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/efc66/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 885w,
+/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/22c86/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 1143w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;使用LinearRing&lt;/h2&gt;
+&lt;h3&gt;主要思路&lt;/h3&gt;
+&lt;p&gt;使用LinearRing可以实现类似环的效果，那么把比如本文使用的贵州的边界线数据来生成一个LinearRing就可以实现遮罩层。但是LinearRing是不能单独存在的，需要创建一个polygon，并使用appendLinearRing这个方法把LinearRing添加进去。而创建的polygon则可以是直接使用[-90,90],[-180,180]这样的extent来生成。&lt;/p&gt;
+&lt;h3&gt;主要代码&lt;/h3&gt;
+
+        &lt;deckgo-highlight-code language=&quot;javascript&quot;  terminal=&quot;carbon&quot; theme=&quot;lucario&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;import {Map, View} from &amp;#39;ol&amp;#39;;
+import {Tile as TileLayer, Image as ImageLayer,Vector as VectorLayer} from &amp;#39;ol/layer&amp;#39;;
+import {OSM, XYZ, ImageStatic, ImageCanvas,Vector as VectorSource } from &amp;#39;ol/source&amp;#39;;
+import {getVectorContext} from &amp;#39;ol/render&amp;#39;;
+import {transform, getTransform} from &amp;#39;ol/proj&amp;#39;;
+import GeoJSON from &amp;#39;ol/format/GeoJSON&amp;#39;;
+import {Polygon, LinearRing} from &amp;#39;ol/geom&amp;#39;;
+import {fromExtent} from &amp;#39;ol/geom/Polygon&amp;#39;;
+import Feature from &amp;#39;ol/Feature&amp;#39;;
+import {Circle as CircleStyle, Fill, RegularShape, Stroke, Style, Text} from &amp;#39;ol/style&amp;#39;;
+
+
+function erase(geom) {
+	// const extent = [-180,-90,180,90];
+	const Max=transform([-180,-90], &amp;#39;EPSG:4326&amp;#39;, &amp;#39;EPSG:3857&amp;#39;);
+	const Min=transform([180,90], &amp;#39;EPSG:4326&amp;#39;, &amp;#39;EPSG:3857&amp;#39;);
+	const extent = [Max[0],Max[1],Min[1],Min[1]];
+	const polygonRing = fromExtent(extent);
+	geom.applyTransform(getTransform(&amp;#39;EPSG:4326&amp;#39;, &amp;#39;EPSG:3857&amp;#39;));
+	const coords = geom.getCoordinates();
+	coords.forEach(coord =&amp;gt;{ 
+		const linearRing = new LinearRing(coord?.[0]);
+		polygonRing.appendLinearRing(linearRing);
+	})
+	return polygonRing;
+}
+
+function addconver(converLayer，data) {
+	const fts = new GeoJSON().readFeatures(data);
+	const ft = fts?.[0];
+	const converGeom = this.erase(ft.getGeometry());
+	const convertFt = new Feature({
+		geometry: converGeom
+	});
+	converLayer.getSource().addFeature(convertFt);
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+      
+&lt;h3&gt;代码解析&lt;/h3&gt;
+&lt;p&gt;在本文档中使用的是geojson数据。在addconver函数中对geojson数据进行解析(可以将geojson数据后缀名改为.json并直接import),解析出贵州的边框数据后在erase函数中生成linearing并添加到覆盖整个图的polygon中。最后将生成的layer添加到map对象中即可。尤其要注意投影的变换。&lt;/p&gt;
+&lt;h2&gt;使用canvas&lt;/h2&gt;
+&lt;h3&gt;主要思路&lt;/h3&gt;
+&lt;p&gt;借助openlayers提供的ImageCanvasSource 来添加canvas图层,数据源依旧采用的是贵州geojson文件。添加canvas后利用geojson解析出的边界坐标点使用canvas的api生成一个面，并使用canvas的’destination-out’来实现中空的一个效果。&lt;/p&gt;
+&lt;h3&gt;主要代码&lt;/h3&gt;
+
+        &lt;deckgo-highlight-code language=&quot;javascript&quot;  terminal=&quot;carbon&quot; theme=&quot;lucario&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;function render(geo_data){
+	const fts = new GeoJSON().readFeatures(geo_data);
+	const ft = fts?.[0];
+	const coords = ft.getGeometry().getCoordinates();
+	const data = coords?.[0]?.[0];
+	//参数1:extent array 左下角投影坐标与右上角投影坐标
+	//参数2:resolution 要生产图像的分辨率
+	//参数3:设备像素比
+	//参数4:图像实际大小
+	//参数5:投影
+	return function(extent, resolution, pixelRatio, size, projection){
+	 //每次的范围变动都会引起重绘，从而触发该回调函数，
+		const [width, height] = size; //画布尺寸
+		const [left, bottom, right, top] = extent; //坐标投影
+		const xScale = width / (right - left); //画布尺寸与坐标投影比
+		const yScale = height / (top - bottom);
+		const transform = getTransform(&amp;#39;EPSG:4326&amp;#39;, &amp;#39;EPSG:3857&amp;#39;);
+		const canvas=document.createElement(&amp;#39;canvas&amp;#39;);
+		canvas.width=width;
+		canvas.height=height;
+		const ctx = canvas.getContext(&amp;#39;2d&amp;#39;);
+		ctx.fillStyle = &amp;quot;rgba(255,255,255,1)&amp;quot;;
+		ctx.fillRect(0,0,width,height);
+		ctx.globalCompositeOperation = &amp;#39;destination-out&amp;#39;;
+		ctx.beginPath();
+		data.forEach((coor,index)=&amp;gt;{
+			const [lon,lat] = transform(coor);
+			const x = (lon - left) * xScale; //转换成手机次尺寸的xy
+			const y = (top - lat) * yScale;
+			index===0?ctx.moveTo(x, y):1;
+			ctx.lineTo(x,y);
+		})
+		// ctx.strokeStyle = &amp;#39;rgba(0,0,0,0.5)&amp;#39;;
+		ctx.fill();					
+		// ctx.restore();
+		// ctx.fill();
+		return canvas;
+	}
+}
+
+const imageCanvas=new ImageCanvas({
+	//创建回调函数如下
+	//data为geojson
+	canvasFunction:render(data), 
+});
+const imageLayer=new ImageLayer({
+	source:imageCanvas
+});&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+      
+&lt;h3&gt;代码解析&lt;/h3&gt;
+&lt;p&gt;上面render函数中的坐标转canvas坐标是在网上找的，代码的思路还是很清晰的，只需要注意ctx.globalCompositeOperation = ‘destination-out’;&lt;/p&gt;
+&lt;h2&gt;使用图层事件和canvas&lt;/h2&gt;
+&lt;p&gt;这种方式也是使用canvas和’destination-out’，但是使用的是openlayer自带的api,使用起来会简单和方便许多，就是第二种方式的进化版。使用图层的’postrender’事件，在图层加载完成之后获取上下文并添加。&lt;/p&gt;
+&lt;h3&gt;主要代码&lt;/h3&gt;
+
+        &lt;deckgo-highlight-code language=&quot;javascript&quot;  terminal=&quot;carbon&quot; theme=&quot;lucario&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;function addPolyon(converLayer,geo_data){
+	const fts = new GeoJSON().readFeatures(geo_data);
+	const ft = fts?.[0];
+	ft.getGeometry().applyTransform(getTransform(&amp;#39;EPSG:4326&amp;#39;, &amp;#39;EPSG:3857&amp;#39;))
+	converLayer.getSource().addFeature(ft);
+	return converLayer;
+}
+//获取图层
+const _layer = map.getLayers().getArray()?.[1]；
+const newcliplayer = addPolyon(clipLayer,data);
+_layer.on(&amp;#39;postrender&amp;#39;, e=&amp;gt; {
+	e.context.globalCompositeOperation = &amp;#39;destination-in&amp;#39;;
+	const vectorContext = getVectorContext(e);
+	newcliplayer.getSource().forEachFeature(feature=&amp;gt;{
+		vectorContext.drawFeature(feature, style);
+	});
+	e.context.globalCompositeOperation = &amp;#39;source-over&amp;#39;;
+});&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+      
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;使用第三种方式无论是在性能还是代码量来说都是优势，第三种也是ol官方推荐的一种。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[学习插值(一)]]></title><description><![CDATA[关于MeteoInfoLab MeotoInfoLab对于处理气象相关的工作是十分有用且高效的。MeotoInfoLab是使用的jython脚本进行开发，是一个好消息但仔细想想也很难让人接受。可以使用基本Python3的语法但无法使用丰富的cpython包，但也MatLab…]]></description><link>https://qian4321.github.io/Charging/grid-interpolate(1)/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/grid-interpolate(1)/</guid><pubDate>Thu, 04 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;关于MeteoInfoLab&lt;/h2&gt;
 &lt;p&gt;MeotoInfoLab对于处理气象相关的工作是十分有用且高效的。MeotoInfoLab是使用的jython脚本进行开发，是一个好消息但仔细想想也很难让人接受。可以使用基本Python3的语法但无法使用丰富的cpython包，但也MatLab、Numpy、Matplotlib实现了一些函数，可以满足部分的需求。具体的信息以及学习的脚本可以看&lt;a href=&quot;http://bbs.06climate.com/forum.php?mod=viewthread&amp;#x26;tid=36151&amp;#x26;highlight=meteoinfolab&quot;&gt;气象家园&lt;/a&gt;相关内容。&lt;/p&gt;
 &lt;h2&gt;使用关于MeteoInfoLab实现插值&lt;/h2&gt;
 &lt;p&gt;在这里借助气象家园的插值脚本进行改写，可以多看看的&lt;a href=&quot;http://bbs.06climate.com/forum.php?mod=viewthread&amp;#x26;tid=36422&amp;#x26;extra=page%3D1&quot;&gt;原始脚本=》》&lt;/a&gt;。&lt;/p&gt;
@@ -241,25 +405,13 @@ chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 2/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 2/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 3/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 3/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 5/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 5/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 7/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 7/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 2/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 2/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
@@ -271,7 +423,7 @@ chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 9/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 9/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 5/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 5/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
@@ -284,6 +436,18 @@ egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 8/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 8/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 9/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 9/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 7/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 7/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
