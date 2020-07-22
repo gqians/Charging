@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 03:59:41 GMT</lastBuildDate><item><title><![CDATA[github新推出的个人简介readme.md]]></title><description><![CDATA[github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。。关于如何制作可以参考这篇blog。]]></description><link>https://qian4321.github.io/Charging/github-readme/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/github-readme/</guid><pubDate>Wed, 22 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://qian4321.github.io/Charging</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 14:18:10 GMT</lastBuildDate><item><title><![CDATA[github新推出的个人简介readme.md]]></title><description><![CDATA[转载github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。我在md中加载了一张图片。关于如何制作可以参考这篇blog。]]></description><link>https://qian4321.github.io/Charging/github-readme/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/github-readme/</guid><pubDate>Wed, 22 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;[转载]github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。我在md中加载了一张图片。&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -21,7 +21,7 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;。关于如何制作可以参考这篇&lt;a href=&quot;https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme&quot;&gt;blog&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[openlayers实现遮罩的三种方式]]></title><description><![CDATA[在平时的gis开发常常会遇到做地图的遮罩层。有原生的图层数据的话可以直接在gis桌面程序中提取出需要展示的区域。但一些不太方便的图层可以直接使用openlayer提供的api进行遮罩层的开发。经过不同的实验提取出了三种不同的方式来实现遮罩层。
+    &lt;/span&gt;关于如何制作可以参考这篇&lt;a href=&quot;https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme&quot;&gt;blog&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[openlayers实现遮罩的三种方式]]></title><description><![CDATA[在平时的gis开发常常会遇到做地图的遮罩层。有原生的图层数据的话可以直接在gis桌面程序中提取出需要展示的区域。但一些不太方便的图层可以直接使用openlayer提供的api进行遮罩层的开发。经过不同的实验提取出了三种不同的方式来实现遮罩层。
  使用LinearRing…]]></description><link>https://qian4321.github.io/Charging/clipping-Layer/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/clipping-Layer/</guid><pubDate>Sun, 05 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;在平时的gis开发常常会遇到做地图的遮罩层。有原生的图层数据的话可以直接在gis桌面程序中提取出需要展示的区域。但一些不太方便的图层可以直接使用openlayer提供的api进行遮罩层的开发。经过不同的实验提取出了三种不同的方式来实现遮罩层。
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -416,12 +416,6 @@ to its own, safe country. But nothing the copy said could convince her and so it
 didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
 with Longe and Parole and dragged her into their agency, where they abused her
 for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
@@ -446,13 +440,19 @@ chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 4/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 4/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 6/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 6/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post copy 4/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post copy 4/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+chicken eggs, though the…]]></description><link>https://qian4321.github.io/Charging/my-second-post/</link><guid isPermaLink="false">https://qian4321.github.io/Charging/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
