@@ -11,12 +11,12 @@ export default {
 		  {
 			title:'书签',
 			item:[
-				{title:'百度',link:'https://www.baidu.com'},
-				{title:'网易',link:'https://www.baidu.com'},
-				{title:'网易',link:'https://www.baidu.com'},
-				{title:'网易',link:'https://www.baidu.com'},
-				{title:'网易',link:'https://www.baidu.com'},
-				{title:'网易',link:'https://www.baidu.com'}
+				{title:'windy',link:'https://www.windy.com/'},
+				{title:'ventusky',link:'https://www.ventusky.com/'},
+				{title:'github',link:'https://github.com/Qian4321'},
+				{title:'twitter',link:'https://twitter.com/gqians'},
+				{title:'medium',link:'https://medium.com/'},
+				{title:'气象家园',link:'http://bbs.06climate.com/forum.php'}
 			]
 		 },
 		 {
