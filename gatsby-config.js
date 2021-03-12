@@ -7,14 +7,11 @@ module.exports = {
       summary: `gggggggggggis.....`,
     },
     description: `记录自己的学习过程`,
-    siteUrl: `https://qian4321.github.io/Charging/`,
+    siteUrl: `http://www.qds.ink`,
     social: {
       twitter: `kylemathews`,
     },
   },
-	siteMetadata: {
-		siteUrl: `http://www.qds.ink`,
-	},
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
