@@ -13,6 +13,20 @@ module.exports = {
     },
   },
   plugins: [
+		{
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-SH14JHEE9T", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -59,12 +73,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -122,8 +130,8 @@ module.exports = {
 				exclude: [`/category/*`, `/path/to/page`],
 				query: `
 					{
-						wp {
-							generalSettings {
+						site {
+							siteMetadata {
 								siteUrl
 							}
 						}
@@ -136,12 +144,12 @@ module.exports = {
 				}`,
 				resolveSiteUrl: ({site, allSitePage}) => {
 					//Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
-					return site.wp.generalSettings.siteUrl
+					return site.siteMetadata.siteUrl
 				},
 				serialize: ({ site, allSitePage }) =>
 					allSitePage.nodes.map(node => {
 						return {
-							url: `${site.wp.generalSettings.siteUrl}${node.path}`,
+							url: `${site.siteMetadata.siteUrl}${node.path}`,
 							changefreq: `daily`,
 							priority: 0.7,
 						}
