@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>http://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Mar 2021 09:06:37 GMT</lastBuildDate><item><title><![CDATA[[转载]github新推出的个人简介readme.md]]></title><description><![CDATA[github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。我在md中加载了一张图片。关于如何制作可以参考这篇blog。]]></description><link>http://www.qds.ink/github-readme/</link><guid isPermaLink="false">http://www.qds.ink/github-readme/</guid><pubDate>Wed, 22 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。我在md中加载了一张图片。&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>http://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Mar 2021 15:47:30 GMT</lastBuildDate><item><title><![CDATA[chrome使用getImageData耗时]]></title><description><![CDATA[问题 最近在实现一个鼠标滑动读取ol图层原始RGB颜色的功能。根据ol的示例，采取了监听图层的postrender事件，在事件对象中获取到了canvas context。在context上使用getIamgeData()函数时，在移动地图时会出现明显的卡顿现象。参考的ol…]]></description><link>http://www.qds.ink/chrome-getImageData/</link><guid isPermaLink="false">http://www.qds.ink/chrome-getImageData/</guid><pubDate>Sat, 13 Mar 2021 23:40:03 GMT</pubDate><content:encoded>&lt;h2&gt;问题&lt;/h2&gt;
+&lt;p&gt;最近在实现一个鼠标滑动读取ol图层原始RGB颜色的功能。根据ol的示例，采取了监听图层的postrender事件，在事件对象中获取到了canvas context。在context上使用getIamgeData()函数时，在移动地图时会出现明显的卡顿现象。参考的&lt;a href=&quot;https://openlayers.org/en/latest/examples/layer-spy.html&quot;&gt;ol示例如下:&lt;/a&gt;,参考的&lt;a href=&quot;https://stackoverflow.com/questions/35081751/openlayers-get-pixel-color-from-image-layer&quot;&gt;stackoverflow帖子&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;相同的代码在firefox上运行是很流畅的，所以可以证明是chrome存在一定的性能问题。关于这个问题可以从下面这个帖子中探知一二，&lt;a href=&quot;https://news.ycombinator.com/item?id=22267547%E3%80%82%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%9B%BE%E7%89%87%E5%AF%B9%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0%E9%9D%9E%E5%B8%B8%E5%85%B7%E4%BD%93%E3%80%82&quot;&gt;https://news.ycombinator.com/item?id=22267547。下面的图片对问题描述非常具体。&lt;/a&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABFUlEQVQoz2VR2XKEMAzj/z+t02O3geWGAAk3FPZ+cyPDZLbTB42Mk0i2cOa5IaVS0jpj7rpqR7ljq/tecb2uPd1us8X1Otn6fv8hp20LOhzeSIh3Eu4ned4XwzW17x+5FuLDchS5JGVEZZkwZ1lARREzw9ipa8kX8TgMBR9IGVKeB/bSPDU0DIqmqaZx1Gbaynxr7mHyjStz3pCDMdHAykBd59Q0kmC0LB1dLiOv9bra47HQ87n+A/pGcGEXrTehti3ZDXlhIpht0+i9Vn9MXgEzB6pYEWsHwbfJSFAce5wVIgCjh/Wravt5yA5AdkUR2YgwFAtizTT1DU6MJDkZAZ8ZwFmSeLtAbB6HLAhWKrMZns8D/QKXSgHyh9fM0wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;question&quot;
+        title=&quot;question&quot;
+        src=&quot;/Charging/static/429e97dcac881bda1789a039584dfe00/fcda8/hackerNews.png&quot;
+        srcset=&quot;/Charging/static/429e97dcac881bda1789a039584dfe00/12f09/hackerNews.png 148w,
+/Charging/static/429e97dcac881bda1789a039584dfe00/e4a3f/hackerNews.png 295w,
+/Charging/static/429e97dcac881bda1789a039584dfe00/fcda8/hackerNews.png 590w,
+/Charging/static/429e97dcac881bda1789a039584dfe00/efc66/hackerNews.png 885w,
+/Charging/static/429e97dcac881bda1789a039584dfe00/c83ae/hackerNews.png 1180w,
+/Charging/static/429e97dcac881bda1789a039584dfe00/73dae/hackerNews.png 2122w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;解决方案&lt;/h2&gt;
+&lt;h3&gt;1.拖拽跳过getImageData&lt;/h3&gt;
+&lt;p&gt;在拖拽时不触发getImageData()方法。实验结果：只要开始触发过getImageData方法，即使后面在拖拽时不触发getImageData()方法，页面也会有卡顿，通过Performance查看是paint时间究极长的缘故。但只要重头到尾不触发getIamgeData(),就会很流畅。所以方案不通过，而且都多了一个疑问…&lt;/p&gt;
+&lt;h3&gt;2.使用forEachLayerAtPixel()&lt;/h3&gt;
+&lt;p&gt;原来针对获取值这个操作,ol中有专门的方法进行操作，具体的使用方式很简单而且页面不会卡顿，也有开源贡献者对getImageData()进行了专门的优化。详见：&lt;a href=&quot;https://github.com/openlayers/openlayers/issues/10597&quot;&gt;https://github.com/openlayers/openlayers/issues/10597&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;3.直接copy第二种方法中的优化&lt;/h3&gt;
+&lt;h3&gt;4.使用web worker&lt;/h3&gt;
+&lt;h2&gt;最后&lt;/h2&gt;
+&lt;p&gt;后面两种方法我本人并没有实践，只是在解决问题时提出的提前构想，因为第二种就很完美了，所以也没必要搞了。第一次适配chrome也是别样的感受。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[转载]github新推出的个人简介readme.md]]></title><description><![CDATA[github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。我在md中加载了一张图片。关于如何制作可以参考这篇blog。]]></description><link>http://www.qds.ink/github-readme/</link><guid isPermaLink="false">http://www.qds.ink/github-readme/</guid><pubDate>Wed, 22 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;github新推出了一个自我介绍的readme.md,可以使用所有markdown的语法来进行自我介绍。我在md中加载了一张图片。&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-index-jsx","path":"/tags/chrome/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/chrome-getImageData/"},"frontmatter":{"title":"chrome使用getImageData耗时","date":"2021年03月13日"}}}]}},"pageContext":{"tag":"chrome"}}}
