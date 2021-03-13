@@ -13,7 +13,6 @@ const NavLink = props => {
 
 export default ({ pageContext }) => {
   const { index, first, last, pageCount } = pageContext
-
   const previousUrl = index - 1 === 1 ? '' : (index - 1).toString()
   const nextUrl = (index + 1).toString()
 
@@ -29,9 +28,9 @@ export default ({ pageContext }) => {
         {index - 2 > 1 &&  <span className="pageItem static">...</span>}          
         {
           more ? <>
-          <NavLink className={isCurrentPageClass(index + 1)} test={false} url={index + 1 + ''} text={index + 1} />
-          <NavLink className={isCurrentPageClass(index + 2)} test={false} url={index + 2 + ''} text={index + 2} />
-          <NavLink className={isCurrentPageClass(index + 3)} test={false} url={index + 3 + ''} text={index + 3} />
+          <NavLink className={isCurrentPageClass(index + 1)} test={!(index+1<=pageCount)} url={index + 1 + ''} text={index + 1} />
+          <NavLink className={isCurrentPageClass(index + 2)} test={!(index+2<=pageCount)} url={index + 2 + ''} text={index + 2} />
+          <NavLink className={isCurrentPageClass(index + 3)} test={!(index+3<=pageCount)} url={index + 3 + ''} text={index + 3} />
           </> : <>
           <NavLink className={isCurrentPageClass(index - 1)} test={index === 2 } url={index - 1 + ''} text={index - 1} />
           <NavLink className={isCurrentPageClass(index )} test={false} url={index + ''} text={index} />
