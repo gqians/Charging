@@ -18,7 +18,7 @@ export default ({ pageContext }) => {
 
   const isCurrentPageClass = idx => idx === index ? 'pageItem active' : 'pageItem'
   const more = index < 2
-  const isEnd = index === pageCount || pageCount - 1 === index
+  const isEnd = pageCount<=3 || (index === pageCount || pageCount - 1 === index)
 
   return (
     <div className="paginationBox">
