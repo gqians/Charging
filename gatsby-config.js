@@ -7,7 +7,7 @@ module.exports = {
       summary: `gggggggggggis.....`,
     },
     description: `记录自己的学习过程`,
-    siteUrl: `http://www.qds.ink`,
+    siteUrl: `https://www.qds.ink`,
     social: {
       twitter: `kylemathews`,
     },
