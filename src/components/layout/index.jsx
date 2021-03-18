@@ -23,7 +23,7 @@ const Layout = ({ location, title, children }) => {
         {children}
         </div>
         <div className={s.sidebar}>
-          <SideBar/>
+          <SideBar location={location}/>
           <BackToTop/>
         </div>
       </main>

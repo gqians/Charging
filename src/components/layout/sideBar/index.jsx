@@ -6,6 +6,7 @@ import { CirclePicker } from 'react-color';
 import cn from 'classnames'
 import { useStaticQuery, graphql } from 'gatsby'
 import CloudTag from '../cloudTag'
+
 // uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
 const handleChangeComplete=(color)=>{
     const htmlElement = document.getElementsByTagName('html')[0]
@@ -17,7 +18,7 @@ const handleChangeComplete=(color)=>{
     // htmlElement.style.setProperty("--color-bg-s",color.hsl.s*100);
     // htmlElement.style.setProperty("--color-bg-l",color.hsl.l*100);
 }
-const SideBar=()=>{
+const SideBar=(location)=>{
     const data = useStaticQuery(graphql`
     query {
         allMarkdownRemark(
@@ -29,7 +30,7 @@ const SideBar=()=>{
         }
       }
   `)
-  
+		// const location = this.props.location
     return (
         <div className={s.sidebar}>
             <div className={s.sideBarItem}>
@@ -59,7 +60,7 @@ const SideBar=()=>{
                     {config.sideBar[1].title}
                 </div>
                 <div>
-                    <CloudTag data={data}/>
+                    <CloudTag data={data} location={location}/>
                 </div>
             </div>
         </div>

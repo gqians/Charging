@@ -11,23 +11,19 @@ class CloudTag extends React.PureComponent{
         const texts=this.props.data?.allMarkdownRemark?.group.map(element => {
             return element?.fieldValue
         });
-        // const texts = [
-        //     '3D', 'TagCloud', 'JavaScript',
-        //     'CSS3', 'Animation', 'Interactive',
-        //     'Mouse', 'Rolling', 'Sphere',
-        //     '6KB', 'v2.x',
-        // ];
         const options = {
         };
         const tc=TagCloud(container, texts, options);
+				console.log(this.props.location);
         tc?.items.forEach((ele)=>{
             console.log(ele.el.innerText);
             const a = document.createElement('a');
-            if(document.domain === 'localhost'){
-                a.setAttribute('href', `http://localhost:8000/tags/${ele.el.innerText}`);
-            }else{
-                a.setAttribute('href', `http://23.254.167.251:9977/Charging/tags/${ele.el.innerText}`);
-            }
+            // if(document.domain === 'localhost'){
+            //     a.setAttribute('href', `${this.props.location.href}${ele.el.innerText}`);
+            // }else{
+            //     a.setAttribute('href', `${this.props.location.href}Charging/tags/${ele.el.innerText}`);
+            // }
+						a.setAttribute('href', `${window.location.href}tags/${ele.el.innerText}`);
             a.textContent = ele.el.innerText;
             ele.el.textContent=''
             ele.el.appendChild(a);
