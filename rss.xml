@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Mar 2021 12:50:26 GMT</lastBuildDate><item><title><![CDATA[chrome使用getImageData耗时]]></title><description><![CDATA[问题 最近在实现一个鼠标滑动读取ol图层原始RGB颜色的功能。根据ol的示例，采取了监听图层的postrender事件，在事件对象中获取到了canvas context。在context上使用getIamgeData()函数时，在移动地图时会出现明显的卡顿现象。参考的ol…]]></description><link>https://www.qds.ink/chrome-getImageData/</link><guid isPermaLink="false">https://www.qds.ink/chrome-getImageData/</guid><pubDate>Sat, 13 Mar 2021 23:40:03 GMT</pubDate><content:encoded>&lt;h2&gt;问题&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[记录自己的学习过程]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Mar 2021 15:19:17 GMT</lastBuildDate><item><title><![CDATA[github个人简介中添加Spotify Playing]]></title><description><![CDATA[最近在刷youtube的时候看见了这个视频,看见可以在github的个人简介可以添加spotify正在播放曲目，感觉很有趣便尝试了一下。我直接copy视频中youtuber的部分readme来使用。其实只需要将uid更换为自己的spotify uid…]]></description><link>https://www.qds.ink/github-spotify/</link><guid isPermaLink="false">https://www.qds.ink/github-spotify/</guid><pubDate>Sat, 20 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;最近在刷youtube的时候看见了这个&lt;a href=&quot;https://www.youtube.com/watch?v=CfUshG3jO7E&quot;&gt;视频&lt;/a&gt;,看见可以在github的个人简介可以添加spotify正在播放曲目，感觉很有趣便尝试了一下。我直接copy视频中youtuber的部分readme来使用。其实只需要将uid更换为自己的spotify uid就可以了，但我并没有成功，上面只能展示的歌曲并不是我在播放的。后面我找到了这个&lt;a href=&quot;https://github.com/kittinan/spotify-github-profile&quot;&gt;仓库&lt;/a&gt;,进入页面后点击下面的绿色按钮进行验证&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABnElEQVQoz42RyU7bYBSFsyxpnMH5Pdu/4yF2nDBEgRSJoUQIMW5AgQUSQsCCF0DddNNnqNQXKJHaDVskBgnxCLzR6fUNsGqjLj6dY9n/8bn3L4TJNNY29rAy2MLyYBOfN3bRXxqgt7iK1fVtdPvLmFLqUGrGf1GoGx4sGcNwwzFOwOh2A8KU7N1GgqqwUSwLfKxo/4QD85CAWsqwBRll7Btxm589wiefq0Oh+Y9twqQzlhcxubdlEyb5smqioFMD+XrAC1IOEJZ8H6FSt1DVHKi6i3waVfdQe/cuavm7V88N86BsdgHpdA9ha4Y1bneJObRm5rlxsSJ43DdKVZ1HLOW8eVIOVA2XdpQiiDpj4rH6QcZ4fgJBrYQhqbnPzSZeSknR6CMJLYnhtTtwWhlkpwM7SSEaAbSACGlnMe3QiviSSjWdG/2NgiIdyO87OL79ik+/ThFfHyAbHSEibY6GSEeHSH4O4f/eh7jso/hBhaJOaFhueohvjvDl5Qe2n6/QvT/H4uMlZu/P2PceLtC7u0D6dALz2wBKUZsY+Adudf8g01Qe1QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;验证&quot;
+        title=&quot;验证&quot;
+        src=&quot;/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/fcda8/github.png&quot;
+        srcset=&quot;/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/12f09/github.png 148w,
+/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/e4a3f/github.png 295w,
+/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/fcda8/github.png 590w,
+/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/efc66/github.png 885w,
+/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/c83ae/github.png 1180w,
+/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/10ab7/github.png 1552w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;,点击后会跳转到spotify的授权界面，点击授权就可以了。然后界面就会跳转到这个界面：&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABXElEQVQoz62RzUoDMRDH9zmqF30EUXwN9aB38eMJRPEqPot481JEtGKLYHuqFj9OXkXb0trddje7meRvJtusobY3B35kJjPzzwwJ5ssbWLrZxurtvmEPy5UdrFR27cm5UnkdczMoldewcLmJxcst6/NdUGs/otF9Kajb8xUP3WdwLqfp+b9UDfedJ0PL+nwX4J8tIK3AANrCHolv0GfdotoNqC/D4B3UaYI+alAqM3Wm1vSpcb8j0Fpb5Z5I0I9jyCyD5gdIQKUR4qiHbNRHlkTQMgbkCCJJIIRAmqaQUtp+1mEKwYzIwrFkX5KdmRRPAoszMnmlGAXXXwi6wLfhMEIYhnkhN41hAUW5kG9+fzEhF/HLPpKkXclnssaJ/1nZJV1icmp/Gocbwp9y5oQcx2mCwWiAMA4tiYmnbTJV0H+ZVF501brGwdkhTi5OcXR+jLu3qr2X48/zN3HnD7t3M2o3b5XZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;product&quot;
+        title=&quot;product&quot;
+        src=&quot;/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/fcda8/product.png&quot;
+        srcset=&quot;/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/12f09/product.png 148w,
+/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/e4a3f/product.png 295w,
+/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/fcda8/product.png 590w,
+/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/efc66/product.png 885w,
+/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/c83ae/product.png 1180w,
+/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/7da7d/product.png 2120w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;,根据自己的喜好选择样式后点击‘copy to clipboard’按钮，直接粘贴到markdown文件中即可使用。
+下面是生产github个人简介模板生成器地址: &lt;a href=&quot;https://github.com/rahuldkjain/github-profile-readme-generator&quot;&gt;https://github.com/rahuldkjain/github-profile-readme-generator&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[chrome使用getImageData耗时]]></title><description><![CDATA[问题 最近在实现一个鼠标滑动读取ol图层原始RGB颜色的功能。根据ol的示例，采取了监听图层的postrender事件，在事件对象中获取到了canvas context。在context上使用getIamgeData()函数时，在移动地图时会出现明显的卡顿现象。参考的ol…]]></description><link>https://www.qds.ink/chrome-getImageData/</link><guid isPermaLink="false">https://www.qds.ink/chrome-getImageData/</guid><pubDate>Sat, 13 Mar 2021 23:40:03 GMT</pubDate><content:encoded>&lt;h2&gt;问题&lt;/h2&gt;
 &lt;p&gt;最近在实现一个鼠标滑动读取ol图层原始RGB颜色的功能。根据ol的示例，采取了监听图层的postrender事件，在事件对象中获取到了canvas context。在context上使用getIamgeData()函数时，在移动地图时会出现明显的卡顿现象。参考的&lt;a href=&quot;https://openlayers.org/en/latest/examples/layer-spy.html&quot;&gt;ol示例如下:&lt;/a&gt;,参考的&lt;a href=&quot;https://stackoverflow.com/questions/35081751/openlayers-get-pixel-color-from-image-layer&quot;&gt;stackoverflow帖子&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;相同的代码在firefox上运行是很流畅的，所以可以证明是chrome存在一定的性能问题。关于这个问题可以从下面这个帖子中探知一二，&lt;a href=&quot;https://news.ycombinator.com/item?id=22267547%E3%80%82%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%9B%BE%E7%89%87%E5%AF%B9%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0%E9%9D%9E%E5%B8%B8%E5%85%B7%E4%BD%93%E3%80%82&quot;&gt;https://news.ycombinator.com/item?id=22267547。下面的图片对问题描述非常具体。&lt;/a&gt;
 &lt;span
