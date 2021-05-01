@@ -6,7 +6,7 @@ module.exports = {
       name: `汇哥全球后援会`,
       summary: `gggggggggggis.....`,
     },
-    description: `记录自己的学习过程`,
+    description: `学而不思则罔，思而不学则殆。`,
     siteUrl: `https://www.qds.ink`,
     social: {
       twitter: `kylemathews`,

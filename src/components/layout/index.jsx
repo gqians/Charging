@@ -28,7 +28,7 @@ const Layout = ({ location, title, children }) => {
         </div>
       </main>
       <footer className={s.footer}>
-        © {new Date().getFullYear()}, Built with 汇哥全球后援会  
+        © {new Date().getFullYear()}, Built with 汇哥全球后援会,联系我(qhong1250@gmail.com)
       <a href="https://www.gatsbyjs.org" className={s.link}>{`   `}搭建基于Gatsby</a>
       </footer>
     </div>

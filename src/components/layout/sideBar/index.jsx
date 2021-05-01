@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { CirclePicker } from 'react-color';
 import cn from 'classnames'
 import { useStaticQuery, graphql } from 'gatsby'
-import CloudTag from '../cloudTag'
+// import CloudTag from '../cloudTag'
 
 // uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
 const handleChangeComplete=(color)=>{
@@ -62,15 +62,15 @@ const SideBar=(location)=>{
                         onChangeComplete={ handleChangeComplete }
                     />
                 </div>
-          </div>
-            <div className={cn(s.sideBarItem,s.last)}>
+						</div>
+            {/* <div className={cn(s.sideBarItem,s.last)}>
                 <div  className={s.title}>
                     {config.sideBar[1].title}
                 </div>
                 <div>
                     <CloudTag data={data} location={location}/>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
