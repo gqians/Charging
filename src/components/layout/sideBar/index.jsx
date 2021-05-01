@@ -17,6 +17,14 @@ const handleChangeComplete=(color)=>{
     // htmlElement.style.setProperty("--color-bg-h",color.hsl.h);
     // htmlElement.style.setProperty("--color-bg-s",color.hsl.s*100);
     // htmlElement.style.setProperty("--color-bg-l",color.hsl.l*100);
+		if(window.localStorage){
+			const qdsThemeColor = window.localStorage;
+			qdsThemeColor.setItem('qdsThemeColor',JSON.stringify({
+				'--color-h':color.hsl.h,
+				'--color-s':color.hsl.s*100,
+				'--color-l':color.hsl.l*100
+			}))
+		}
 }
 const SideBar=(location)=>{
     const data = useStaticQuery(graphql`

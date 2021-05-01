@@ -9,4 +9,15 @@ import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/
 Object.entries(config.theme).forEach(([key, value]) => {
     document.documentElement.style.setProperty(key, value);
 });
+if(window.localStorage){
+	const qdsThemeColor = window.localStorage;
+	const content = qdsThemeColor.getItem('qdsThemeColor')
+	if(content){
+		const qdsThemeColor = JSON.parse(content)
+		const htmlElement = document.getElementsByTagName('html')[0]
+		htmlElement.style.setProperty("--color-h",qdsThemeColor['--color-h']);
+		htmlElement.style.setProperty("--color-s",qdsThemeColor['--color-s']);
+		htmlElement.style.setProperty("--color-l",qdsThemeColor['--color-l']);
+	}
+}
 deckDeckGoHighlightElement();

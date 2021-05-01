@@ -4,6 +4,13 @@ import { rhythm } from "../../../utils/typography"
 import Pag from '../../pagination'
 import s from './style.module.css'
 import config from '../../../utils/config'
+function createSomeEle(number){
+	const eles = []
+	for(let i=0;i<number;i++){
+		eles.push((<li></li>))
+	}
+	return eles
+}
 function Header(){
     const data = useStaticQuery(graphql`
     query HeaderQuery {
@@ -23,29 +30,36 @@ function Header(){
   `);
     return (
     <header className={s.header}>
-        <div className={s.imgLogo}/>
-        <div className={s.textLogo}>
-            <span className={s.firstLine}>
-            {data.site.siteMetadata.author.name}
-            </span>
-            <br/>
-            <span className={s.secondLine}>
-            {data.site.siteMetadata.description}
-            </span>
-        </div>
-        <div className={s.menu}>
-            {
-                config.menuNavs.map((item,key)=>{
-                    return(
-                        <span className={s.link} key={key}>
-                            <Link className={s.link} style={{ boxShadow: `none` }} to={item.link}>
-                                {item.title}
-                            </Link>
-                        </span>
-                    )
-                })
-            }
-        </div>
+			<ul className={s.background}>
+				{
+					createSomeEle(8)
+				}
+			</ul>
+			<div className={s.content}>
+				<div className={s.imgLogo}/>
+				<div className={s.textLogo}>
+						<span className={s.firstLine}>
+						{data.site.siteMetadata.author.name}
+						</span>
+						<br/>
+						<span className={s.secondLine}>
+						{data.site.siteMetadata.description}
+						</span>
+				</div>
+				<div className={s.menu}>
+						{
+								config.menuNavs.map((item,key)=>{
+										return(
+												<span className={s.link} key={key}>
+														<Link className={s.link} style={{ boxShadow: `none` }} to={item.link}>
+																{item.title}
+														</Link>
+												</span>
+										)
+								})
+						}
+				</div>
+			</div>
     </header>
     )
 }
