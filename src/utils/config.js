@@ -1,4 +1,11 @@
 import path from 'path'
+import twitter from '../../static/twitter.svg'
+import github from '../../static/github.svg'
+import medium from '../../static/medium.svg'
+import dev from '../../static/dev.svg'
+import tailwindcss from '../../static/tailwindcss.svg'
+import deepl from '../../static/deepl.svg'
+
 export default {
 	limit:10,
     menuNavs: [
@@ -6,26 +13,26 @@ export default {
         {title: '标签', link: '/tags'},
         {title: '归档', link: '/archives'},
         // {title: '图片', link: '/image-view'},
-	  ],
-	  sideBar:[
-		  {
+		],
+		sideBar:[
+			{
 			title:'书签',
 			item:[
-				{title:'windy',link:'https://www.windy.com/'},
-				{title:'ventusky',link:'https://www.ventusky.com/'},
-				{title:'github',link:'https://github.com/Qian4321'},
-				{title:'twitter',link:'https://twitter.com/gqians'},
-				{title:'medium',link:'https://medium.com/'},
-				{title:'气象家园',link:'http://bbs.06climate.com/forum.php'}
+				{title:'github',link:'https://github.com/gqians',icon:github},
+				{title:'twitter',link:'https://twitter.com/gqians',icon: twitter},
+				{title:'medium',link:'https://medium.com/',icon:medium},
+				{title:'DEV',link:'http://bbs.06climate.com/forum.php',icon:dev},
+				{title:'tailwind',link:'https://tailwindcss.com/',icon:tailwindcss},
+				{title:'DeepL',link:'https://www.deepl.com/translator',icon:deepl},
 			]
-		 },
-		 {
-			 title:'标签云'
-		 },
-		 {
-			 title:'主题'
-		 }
-	  ],
+		},
+		{
+			title:'标签云'
+		},
+		{
+			title:'主题'
+		}
+		],
 	musicPath:'./static/少年锦时.mp3',
 	theme: {
         'font-size': '16px',

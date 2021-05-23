@@ -45,10 +45,13 @@ const SideBar=(location)=>{
                 <div className={s.title}>
                     {config.sideBar[0].title}
                 </div>
-                <div>
-                    {config.sideBar[0].item.map((i)=>{
+                <div className={s.markContainer}>
+                    {config.sideBar[0].item.map((i,key)=>{
                         return(
-                            <a href={i.link} key={uuidv4()} className={s.a}>{i.title}</a>
+													<a href={i.link} key={key} className={s.a}>
+														<img src={i.icon} className={s.icon} />
+														{/* {i.title} */}
+													</a>
                         )
                     })}
                 </div>

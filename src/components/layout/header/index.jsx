@@ -7,7 +7,7 @@ import config from '../../../utils/config'
 function createSomeEle(number){
 	const eles = []
 	for(let i=0;i<number;i++){
-		eles.push((<li></li>))
+		eles.push((<li key={i}></li>))
 	}
 	return eles
 }
