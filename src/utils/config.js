@@ -21,7 +21,7 @@ export default {
 				{title:'github',link:'https://github.com/gqians',icon:github},
 				{title:'twitter',link:'https://twitter.com/gqians',icon: twitter},
 				{title:'medium',link:'https://medium.com/',icon:medium},
-				{title:'DEV',link:'http://bbs.06climate.com/forum.php',icon:dev},
+				{title:'DEV',link:'https://dev.to/',icon:dev},
 				{title:'tailwind',link:'https://tailwindcss.com/',icon:tailwindcss},
 				{title:'DeepL',link:'https://www.deepl.com/translator',icon:deepl},
 			]
