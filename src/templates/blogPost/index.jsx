@@ -6,8 +6,9 @@ import Layout from "../../components/layout"
 import SEO from "../../components/layout/seo"
 import { rhythm, scale } from "../../utils/typography"
 import s from './style.module.css'
-
+import { ReactCusdis } from 'react-cusdis'
 const BlogPostTemplate = ({ data, pageContext, location }) => {
+	console.log(data);
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
@@ -78,6 +79,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
+			<ReactCusdis
+				lang="zh-cn"
+        attrs={{
+          host: 'http://23.254.167.251:3000',
+          appId: '9bf811ad-f0b6-4462-bee6-edf392a5374f',
+          pageId: data.id,
+          pageTitle: data.markdownRemark.frontmatter.title,
+          pageUrl: window.location.href
+        }}
+      />
     </Layout>
   )
 }
