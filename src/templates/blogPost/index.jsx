@@ -8,7 +8,7 @@ import { rhythm, scale } from "../../utils/typography"
 import s from './style.module.css'
 import { ReactCusdis } from 'react-cusdis'
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-	console.log(data);
+	console.log(pageContext);
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
@@ -86,7 +86,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           appId: '9bf811ad-f0b6-4462-bee6-edf392a5374f',
           pageId: data.id,
           pageTitle: data.markdownRemark.frontmatter.title,
-          pageUrl: window.location.href
+          pageUrl: pageContext.slug
         }}
       />
     </Layout>
