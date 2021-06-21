@@ -83,7 +83,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 				lang="zh-cn"
         attrs={{
           host: '/cudis',
-          appId: '9bf811ad-f0b6-4462-bee6-edf392a5374f',
+          appId: '8cb934f8-9505-4a69-af8f-37dda28d0bf1',
           pageId: data.id,
           pageTitle: data.markdownRemark.frontmatter.title,
           pageUrl: pageContext.slug
