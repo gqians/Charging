@@ -82,7 +82,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 			<ReactCusdis
 				lang="zh-cn"
         attrs={{
-          host: 'http://23.254.167.251:3000',
+          host: '/cudis',
           appId: '9bf811ad-f0b6-4462-bee6-edf392a5374f',
           pageId: data.id,
           pageTitle: data.markdownRemark.frontmatter.title,
