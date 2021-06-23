@@ -82,8 +82,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 			<ReactCusdis
 				lang="zh-cn"
         attrs={{
-          host: '/cudis',
-          appId: '32b3a805-ffd8-48e6-9cd1-f4b6dbaaeee9',
+          host: 'https://cusdis.com',
+          appId: '3c2ec840-b9b5-4641-a1c6-62333d79bb39',
           pageId: data.id,
           pageTitle: data.markdownRemark.frontmatter.title,
           pageUrl: pageContext.slug
