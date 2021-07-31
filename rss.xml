@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[学而不思则罔，思而不学则殆。]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Jun 2021 01:23:35 GMT</lastBuildDate><item><title><![CDATA[History of the Web（转载）]]></title><description><![CDATA[web的历史,我是在jQuery和MVC那个时期入的行，看了还蛮有感触的。]]></description><link>https://www.qds.ink/brower-history/</link><guid isPermaLink="false">https://www.qds.ink/brower-history/</guid><pubDate>Thu, 24 Jun 2021 08:27:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.matthewgerstman.com/tech/history-of-the-web/&quot;&gt;web的历史&lt;/a&gt;,我是在jQuery和MVC那个时期入的行，看了还蛮有感触的。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[github个人简介中添加Spotify Playing]]></title><description><![CDATA[最近在刷youtube的时候看见了这个视频,看见可以在github的个人简介可以添加spotify正在播放曲目，感觉很有趣便尝试了一下。我直接copy视频中youtuber的部分readme来使用。其实只需要将uid更换为自己的spotify uid…]]></description><link>https://www.qds.ink/github-spotify/</link><guid isPermaLink="false">https://www.qds.ink/github-spotify/</guid><pubDate>Sat, 20 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;最近在刷youtube的时候看见了这个&lt;a href=&quot;https://www.youtube.com/watch?v=CfUshG3jO7E&quot;&gt;视频&lt;/a&gt;,看见可以在github的个人简介可以添加spotify正在播放曲目，感觉很有趣便尝试了一下。我直接copy视频中youtuber的部分readme来使用。其实只需要将uid更换为自己的spotify uid就可以了，但我并没有成功，上面只能展示的歌曲并不是我在播放的。后面我找到了这个&lt;a href=&quot;https://github.com/kittinan/spotify-github-profile&quot;&gt;仓库&lt;/a&gt;,进入页面后点击下面的绿色按钮进行验证&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[学而不思则罔，思而不学则殆。]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Jul 2021 14:10:48 GMT</lastBuildDate><item><title><![CDATA[History of the Web（转载）]]></title><description><![CDATA[web的历史,我是在jQuery和MVC那个时期入的行，看了还蛮有感触的。]]></description><link>https://www.qds.ink/brower-history/</link><guid isPermaLink="false">https://www.qds.ink/brower-history/</guid><pubDate>Thu, 24 Jun 2021 08:27:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.matthewgerstman.com/tech/history-of-the-web/&quot;&gt;web的历史&lt;/a&gt;,我是在jQuery和MVC那个时期入的行，看了还蛮有感触的。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[github个人简介中添加Spotify Playing]]></title><description><![CDATA[最近在刷youtube的时候看见了这个视频,看见可以在github的个人简介可以添加spotify正在播放曲目，感觉很有趣便尝试了一下。我直接copy视频中youtuber的部分readme来使用。其实只需要将uid更换为自己的spotify uid…]]></description><link>https://www.qds.ink/github-spotify/</link><guid isPermaLink="false">https://www.qds.ink/github-spotify/</guid><pubDate>Sat, 20 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;最近在刷youtube的时候看见了这个&lt;a href=&quot;https://www.youtube.com/watch?v=CfUshG3jO7E&quot;&gt;视频&lt;/a&gt;,看见可以在github的个人简介可以添加spotify正在播放曲目，感觉很有趣便尝试了一下。我直接copy视频中youtuber的部分readme来使用。其实只需要将uid更换为自己的spotify uid就可以了，但我并没有成功，上面只能展示的歌曲并不是我在播放的。后面我找到了这个&lt;a href=&quot;https://github.com/kittinan/spotify-github-profile&quot;&gt;仓库&lt;/a&gt;,进入页面后点击下面的绿色按钮进行验证&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABnElEQVQoz42RyU7bYBSFsyxpnMH5Pdu/4yF2nDBEgRSJoUQIMW5AgQUSQsCCF0DddNNnqNQXKJHaDVskBgnxCLzR6fUNsGqjLj6dY9n/8bn3L4TJNNY29rAy2MLyYBOfN3bRXxqgt7iK1fVtdPvLmFLqUGrGf1GoGx4sGcNwwzFOwOh2A8KU7N1GgqqwUSwLfKxo/4QD85CAWsqwBRll7Btxm589wiefq0Oh+Y9twqQzlhcxubdlEyb5smqioFMD+XrAC1IOEJZ8H6FSt1DVHKi6i3waVfdQe/cuavm7V88N86BsdgHpdA9ha4Y1bneJObRm5rlxsSJ43DdKVZ1HLOW8eVIOVA2XdpQiiDpj4rH6QcZ4fgJBrYQhqbnPzSZeSknR6CMJLYnhtTtwWhlkpwM7SSEaAbSACGlnMe3QiviSSjWdG/2NgiIdyO87OL79ik+/ThFfHyAbHSEibY6GSEeHSH4O4f/eh7jso/hBhaJOaFhueohvjvDl5Qe2n6/QvT/H4uMlZu/P2PceLtC7u0D6dALz2wBKUZsY+Adudf8g01Qe1QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABiElEQVQoz42SyU7CUBSGWZmIlLHzPEHL0GJpGBRDfAUXREhQ44KFJi58CJc+g3vBhA2SGBMfwIf6vbdVdhAXX87fc9P//j2nGcNtoHt6juPuEPFghLg/Qivqo9HuIuqdodaMkM2zYErCv8iwog5JdyFqDgTFgqjaCTzRnGRC0lzoTh0lTsFRgUOuyO8kMZSIkVVrQbd90LS2F8AgBqrlQTFrpF9Pqmqmz4pRSwIoRhUyhWiV9GnNl0VkaCpqRl/QiAk1panpIaVQkbYUWTnhT2/PfnWSUCNmdF5eEMPxQ/hhjCqZmxd00Ix6pBcgW2BT8il7P5neJCkOTKMO22pu0TUPqlKFIrsQeBOimM6Xl839S8kxHFjbghCTWXVbEEmVSRU6PiqBmxIS07aXLI0V9L2LyTC+jupyjIfvZ4w+7hG8XyHa3KKxnhF9jfbmBuH6Gs7nFNzjCbIHZTCVPQkZV4P7coH51xOGqznqiwnCtxn8xWWim8spGq8TOKsx+LsBcofknyzvNvwBOzX/GJTaTQkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;验证&quot;
         title=&quot;验证&quot;
-        src=&quot;/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/fcda8/github.png&quot;
-        srcset=&quot;/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/12f09/github.png 148w,
-/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/e4a3f/github.png 295w,
-/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/fcda8/github.png 590w,
-/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/efc66/github.png 885w,
-/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/c83ae/github.png 1180w,
-/Charging/static/6287928c6ddf00987f97d7c29e8ccfe6/10ab7/github.png 1552w&quot;
+        src=&quot;/static/6287928c6ddf00987f97d7c29e8ccfe6/fcda8/github.png&quot;
+        srcset=&quot;/static/6287928c6ddf00987f97d7c29e8ccfe6/12f09/github.png 148w,
+/static/6287928c6ddf00987f97d7c29e8ccfe6/e4a3f/github.png 295w,
+/static/6287928c6ddf00987f97d7c29e8ccfe6/fcda8/github.png 590w,
+/static/6287928c6ddf00987f97d7c29e8ccfe6/efc66/github.png 885w,
+/static/6287928c6ddf00987f97d7c29e8ccfe6/c83ae/github.png 1180w,
+/static/6287928c6ddf00987f97d7c29e8ccfe6/10ab7/github.png 1552w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -27,19 +27,19 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABXElEQVQoz62RzUoDMRDH9zmqF30EUXwN9aB38eMJRPEqPot481JEtGKLYHuqFj9OXkXb0trddje7meRvJtusobY3B35kJjPzzwwJ5ssbWLrZxurtvmEPy5UdrFR27cm5UnkdczMoldewcLmJxcst6/NdUGs/otF9Kajb8xUP3WdwLqfp+b9UDfedJ0PL+nwX4J8tIK3AANrCHolv0GfdotoNqC/D4B3UaYI+alAqM3Wm1vSpcb8j0Fpb5Z5I0I9jyCyD5gdIQKUR4qiHbNRHlkTQMgbkCCJJIIRAmqaQUtp+1mEKwYzIwrFkX5KdmRRPAoszMnmlGAXXXwi6wLfhMEIYhnkhN41hAUW5kG9+fzEhF/HLPpKkXclnssaJ/1nZJV1icmp/Gocbwp9y5oQcx2mCwWiAMA4tiYmnbTJV0H+ZVF501brGwdkhTi5OcXR+jLu3qr2X48/zN3HnD7t3M2o3b5XZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABXElEQVQoz62RzUoDMRDH9zmqF30EUXwN9aB38eMJRPEqPot481JEtGKLYHuqFj9OXkXb0trddje7meRvJtusobY3B35kJjPzzwwJ5ssbWLrZxurtvmEPy5UdrFR27cm5UnkdczMoldewcLmJxcst6/NdUGs/otF9Kajb8xUP3WdwLqfp+b9UDfedJ0PL+nwX4J8tIK3AANrCHolv0GfdotoNqC/D4B3UaYI+alAqM3Wm1vSpcb8j0Fpb5Z5I0I9jyCyD5gdIQKUR4qiHbNRHlkTQMgbkCCJJIIRAmqaQUtp+1mEKwYzIwrFkX5KdmRRPAoszMnmlGAXXXwi6wLfhMEIYhnkhN41hAUW5kG9+fzEhF/HLPpKkXclnssaJ/1nZJV1icmp/Gocbwp9y5oQcx2mCwWiAMA4tiYmnbTJV0H+ZVF501brGwdkhTi5OcXR+jLu3qr2X48/zN3HnD7t3M2o3b5XZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;product&quot;
         title=&quot;product&quot;
-        src=&quot;/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/fcda8/product.png&quot;
-        srcset=&quot;/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/12f09/product.png 148w,
-/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/e4a3f/product.png 295w,
-/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/fcda8/product.png 590w,
-/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/efc66/product.png 885w,
-/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/c83ae/product.png 1180w,
-/Charging/static/96f0544e29a3a4f2bfb273d08ff0c866/7da7d/product.png 2120w&quot;
+        src=&quot;/static/96f0544e29a3a4f2bfb273d08ff0c866/fcda8/product.png&quot;
+        srcset=&quot;/static/96f0544e29a3a4f2bfb273d08ff0c866/12f09/product.png 148w,
+/static/96f0544e29a3a4f2bfb273d08ff0c866/e4a3f/product.png 295w,
+/static/96f0544e29a3a4f2bfb273d08ff0c866/fcda8/product.png 590w,
+/static/96f0544e29a3a4f2bfb273d08ff0c866/efc66/product.png 885w,
+/static/96f0544e29a3a4f2bfb273d08ff0c866/c83ae/product.png 1180w,
+/static/96f0544e29a3a4f2bfb273d08ff0c866/7da7d/product.png 2120w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -54,19 +54,19 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 35.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABFUlEQVQoz2VR2XKEMAzj/z+t02O3geWGAAk3FPZ+cyPDZLbTB42Mk0i2cOa5IaVS0jpj7rpqR7ljq/tecb2uPd1us8X1Otn6fv8hp20LOhzeSIh3Eu4ned4XwzW17x+5FuLDchS5JGVEZZkwZ1lARREzw9ipa8kX8TgMBR9IGVKeB/bSPDU0DIqmqaZx1Gbaynxr7mHyjStz3pCDMdHAykBd59Q0kmC0LB1dLiOv9bra47HQ87n+A/pGcGEXrTehti3ZDXlhIpht0+i9Vn9MXgEzB6pYEWsHwbfJSFAce5wVIgCjh/Wravt5yA5AdkUR2YgwFAtizTT1DU6MJDkZAZ8ZwFmSeLtAbB6HLAhWKrMZns8D/QKXSgHyh9fM0wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 35.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFUlEQVQoz2VR2XKEMAzj/z+t02O3geWGAAk3FPZ+cyPDZLbTB42Mk0i2cOa5IaVS0jpj7rpqR7ljq/tecb2uPd1us8X1Otn6fv8hp20LOhzeSIh3Eu4ned4XwzW17x+5FuLDchS5JGVEZZkwZ1lARREzw9ipa8kX8TgMBR9IGVKeB/bSPDU0DIqmqaZx1Gbaynxr7mHyjStz3pCDMdHAykBd59Q0kmC0LB1dLiOv9bra47HQ87n+A/pGcGEXrTehti3ZDXlhIpht0+i9Vn9MXgEzB6pYEWsHwbfJSFAce5wVIgCjh/Wravt5yA5AdkUR2YgwFAtizTT1DU6MJDkZAZ8ZwFmSeLtAbB6HLAhWKrMZns8D/QKXSgHyh9fM0wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;question&quot;
         title=&quot;question&quot;
-        src=&quot;/Charging/static/429e97dcac881bda1789a039584dfe00/fcda8/hackerNews.png&quot;
-        srcset=&quot;/Charging/static/429e97dcac881bda1789a039584dfe00/12f09/hackerNews.png 148w,
-/Charging/static/429e97dcac881bda1789a039584dfe00/e4a3f/hackerNews.png 295w,
-/Charging/static/429e97dcac881bda1789a039584dfe00/fcda8/hackerNews.png 590w,
-/Charging/static/429e97dcac881bda1789a039584dfe00/efc66/hackerNews.png 885w,
-/Charging/static/429e97dcac881bda1789a039584dfe00/c83ae/hackerNews.png 1180w,
-/Charging/static/429e97dcac881bda1789a039584dfe00/73dae/hackerNews.png 2122w&quot;
+        src=&quot;/static/429e97dcac881bda1789a039584dfe00/fcda8/hackerNews.png&quot;
+        srcset=&quot;/static/429e97dcac881bda1789a039584dfe00/12f09/hackerNews.png 148w,
+/static/429e97dcac881bda1789a039584dfe00/e4a3f/hackerNews.png 295w,
+/static/429e97dcac881bda1789a039584dfe00/fcda8/hackerNews.png 590w,
+/static/429e97dcac881bda1789a039584dfe00/efc66/hackerNews.png 885w,
+/static/429e97dcac881bda1789a039584dfe00/c83ae/hackerNews.png 1180w,
+/static/429e97dcac881bda1789a039584dfe00/73dae/hackerNews.png 2122w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -86,19 +86,19 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACYklEQVQoz3WT7UsUURTG9w/qc/0RSdCX6FuauBgFgZJQQogFiRaW7mtrpWJmkFiEuWrqZmqmRlZsarKaK62u++buzL7M7sz+OrO7QgodeOac5869z33m3jMWJLJqioPgJonwrkkp5PMkDxNouRzpdJp0JkNO08hms6Vs8mKxeAxHYVGTMVY/vqP1djMveh5xsLOBoRvkVJW8COoFnaJhlBdWsiH5WIieltcpyFxLaMvPiLOd6qpztNXX4Z/3ykuNYChEIpUik9PIiePsSZiOBZrUajZHXNFKopbY/g49d5q5ePoM16rOsv7ZS0JVaOjtpaGvj8b+fhrNfFSf4Ndl3hWPB/9usPzJ5uO99y13W27S89hOPLwugimsbjc1Dge1TmcJlwXVdhs1NluFu6gV3jI4UMrLgUBZMBKJEg6H0bVs+TAkYorCVdnV6nJSJ4utDruI2xmeGGVy3ketyyXjDm65utjzL+MZecni+lpZMBqNsS+CZhiV24qKYL0ssnY/xP5qCN+Cj0t2J2Njr9lc+86Npjpaz5+io+sef35+xTkyzPzGr7KgruvSCnli8QSK3KypmUwr3H/uZnx6gk++UX4sz9Au3DHk4dvqEs7OJgaaL/DgaSeLC1M8ezOIf3uzLJgSN4fJJFlpEbPPdNOklsJY7CY194RDXxeR8TZYsZOf6yQy0UFxxYnxxQ1LNg68bRRmOyARKB2YJSWtkRT801LS2TnYmYXfU4IZqT9Q3JqGbbP2gVmXIDwo8wKTkI6UHcYTCUJ7eyjiVFHU0mBGnMaTKklVHFc2OYLxH24eW0b+oL/XifgSVeq38gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYElEQVQoz2WT62vTUBjG+zeJ+D8IflQZKrqLExx+saJuVZgD0Q9bxXZrUzu2urZOhk4GgptdB9sQ60qrMsTr1k5ZL2la00uapLn08U1OLUUP/HgvhOe855wnDtCS6yIquQwksWyVaKkqGrUaNE1Ds9mEQrWqtgjVRlEU+7t2u93l73LUhDwS8RVM3B7D6+UQqkIOhq5DaTRsYV3TYRpmBwNGB6bIgmm20dJY35H99A6RyQmcO34C3KgT2d0EVBLJFYqQZBkaiev0oUboPVh9C8M00FQ1iJJGNQke7u3CfXUEp44chevMaRR/pJDhS7gyO4uxxUXcjEb/40ZPdC6EcT0SQalWZUc29RaWoiGMu67h8XwAWuMnvhcKOOv1YojjMOgnKA74/Tg/PY0LxCDlVj3s98EVXsAQxV/lChPkSwLKggBNluhyTbv5LZfDgG8Gl4NBXOT8Xda24liMraKfC2A4wOHeHAf+60dMPY0gyxeZYIGmKVcqnctlgl9yefR7HuLSjAfhly/wPL5GG/jx4U0MO+934Bw5ifG+YwiGgyh8TmPq2RL2eZ4JWhds2aLyW0STHsFaB8U87oZ82NjawM7WKlLJTdyam0Z45QmS6QS8d4Yw7+qDOxJAOrkN33IU+YrABKvktzpZRJYV21/2jPVDqNtu1BIRCOtulNcngZQPjU031Q9gpALQ04/QeutB4dV9GAkvmblsu8ghilUyr9w1pm0tRQQyMUY2btPeW6ea5diLMfYpP9igSLkmsQlL9CA82USSpO6RrQ3EuoSGrNoTm52NevP2Pz2F/iTrhH8A7df4FyQljhwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;我加载了一张图片&quot;
         title=&quot;我加载了一张图片&quot;
-        src=&quot;/Charging/static/9491dc0e1ac4ad851584bd826792454d/fcda8/%E4%B8%BB%E7%95%8C%E9%9D%A2.png&quot;
-        srcset=&quot;/Charging/static/9491dc0e1ac4ad851584bd826792454d/12f09/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 148w,
-/Charging/static/9491dc0e1ac4ad851584bd826792454d/e4a3f/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 295w,
-/Charging/static/9491dc0e1ac4ad851584bd826792454d/fcda8/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 590w,
-/Charging/static/9491dc0e1ac4ad851584bd826792454d/efc66/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 885w,
-/Charging/static/9491dc0e1ac4ad851584bd826792454d/c83ae/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 1180w,
-/Charging/static/9491dc0e1ac4ad851584bd826792454d/9d1a3/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 2484w&quot;
+        src=&quot;/static/9491dc0e1ac4ad851584bd826792454d/fcda8/%E4%B8%BB%E7%95%8C%E9%9D%A2.png&quot;
+        srcset=&quot;/static/9491dc0e1ac4ad851584bd826792454d/12f09/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 148w,
+/static/9491dc0e1ac4ad851584bd826792454d/e4a3f/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 295w,
+/static/9491dc0e1ac4ad851584bd826792454d/fcda8/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 590w,
+/static/9491dc0e1ac4ad851584bd826792454d/efc66/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 885w,
+/static/9491dc0e1ac4ad851584bd826792454d/c83ae/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 1180w,
+/static/9491dc0e1ac4ad851584bd826792454d/9d1a3/%E4%B8%BB%E7%95%8C%E9%9D%A2.png 2484w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -111,25 +111,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/22c86/%E9%81%AE%E7%BD%A9%E5%9B%BE.png&quot;
+    href=&quot;/static/b4b7d177e6f6a29c695c574e925e3a56/22c86/%E9%81%AE%E7%BD%A9%E5%9B%BE.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACHklEQVQ4y31Uy3LaQBDk/z/LTjnJJUX55rINelhISPveFRw7PSPAik3lMLUwzPZ298ywKfMJ9yKX+U7uhBA8YgyIKS01jLyKzf/A5Ey5aMSYGATzFiVb5GSZz9/ube6BXQGDFwDD08GZESUZpOAIJmE0pw+m/MlwzWYdkhMG3jpER1ZkNGePHPndGAx7siTTGBm0Ic+L/M0VbD6dv8tWyZkMeTkYHNoGbjoiWoOpc8pWHpqOzKWi924MfYgIMd0YTuMEZw9kNCE5yjtOaPaVyszZwfTC3CnjcRgImC+A86zd6w8HeD+p2cFO6NsWfbNDtgMy89F6JHZX/JTG9G8BST6TuXp4wVHJgh7FbD/yVZqfRY5HIDM/GfRdQ3bvCpCC+CngFpYq7HiEY12IcWFYLsiBLAI7asmkqWpU+52CRh/Q1h2q1wrnEuEpua52mIYDfv/6ie32D7xIL2sPywJa5jNlexYYBQ8srHbvBGwQjONZYehaspYRoo9mYO2oFtwA14MsMxXYQemcSCr0R+Ywk2n3UePx8QFvL68E5++0J+tvtIV3ci5ryRdA+hAoSWQd+w7j2KtvMshLA7x6qLNIFTIBYpWs4TJuqznUkAYRtK1rPP14wPPzlo9Q2odDv5PhTRwbq81KiV2mzPXO5/IFUNeNLDzHRmREx9PJJkR9/foHIdZ8Av27XSsPl8Yk0k8la4OWHU3KfF33de/X6/sX1eh2Nqw+sF0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACHElEQVQ4y31Ty5KbMBDk/38rlWyOqc3j4tjIBgeM0GsE3tw6PcLg3S1vDips1ainHzPVNF/x6ORpfnB3RYweKQUkSch6z7pcjtbMqP4HlvMMyZmPM4ESgQgWHObskMVBeP++YfUIbAUMQQFGRIKEccAkI4R3OekZ4d1wayjb22pjs1G/A2pxcAT1C6s5hwIWB4tu7ynXkfWIFMNCaLpJVoD5+vKWaZ5YMBFUCkMJFo0x8PZSGriLh9DPidKHvmfdVN5VK9joA2Ki0QoiUyly9owcLcSPcL3F+dQgeP4Xj6FR5ot8Owx3wNX8vutI3RZvorPo2xaXpkZ27E4fkwuQFBH9Esyljmy2eKzWrDYVQE1REmV5lTMwQS2kV5QWrEN7MjD7XZEo0RVWKY64/Olg+47hjFswlc5OmS96pDPmyOR4MDiamk0CJXqcTIu2bvF3luLh0RwwdGd8ffqC78/f+DbcGZYf2xC/EIBDSxaJ4NE51PvfOLcNPJPd73bomhPlW0zZI6i/VKYWqPd3D9cx0QHW4rTImvWrSdK7tjF4IiOzP7CGvtEa0YCoLPgPABNTjhxWZ/viW9e1m29C5lnXrXhIVky+BHgLZRvs99uRkuBUk83nT/j18wclcSw4Ir1hqnOGGx3DIgjBZdvh68eAGkzpSpmiK+d1Z5ngVTdheSiUl7cleLtdryQv3XQzVj+W+crb4r9+OD1YVf3+A4qXdkbEepUvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;enter description here&quot;
         title=&quot;enter description here&quot;
-        src=&quot;/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/fcda8/%E9%81%AE%E7%BD%A9%E5%9B%BE.png&quot;
-        srcset=&quot;/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/12f09/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 148w,
-/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/e4a3f/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 295w,
-/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/fcda8/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 590w,
-/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/efc66/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 885w,
-/Charging/static/b4b7d177e6f6a29c695c574e925e3a56/22c86/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 1143w&quot;
+        src=&quot;/static/b4b7d177e6f6a29c695c574e925e3a56/fcda8/%E9%81%AE%E7%BD%A9%E5%9B%BE.png&quot;
+        srcset=&quot;/static/b4b7d177e6f6a29c695c574e925e3a56/12f09/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 148w,
+/static/b4b7d177e6f6a29c695c574e925e3a56/e4a3f/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 295w,
+/static/b4b7d177e6f6a29c695c574e925e3a56/fcda8/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 590w,
+/static/b4b7d177e6f6a29c695c574e925e3a56/efc66/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 885w,
+/static/b4b7d177e6f6a29c695c574e925e3a56/22c86/%E9%81%AE%E7%BD%A9%E5%9B%BE.png 1143w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -340,26 +340,26 @@ ylim(16, 55)&lt;/code&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/Charging/static/85baf5c2eb83de381454ba703c7c681a/e8e04/meteoinfo.png&quot;
+    href=&quot;/static/85baf5c2eb83de381454ba703c7c681a/e8e04/meteoinfo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 45.27027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABeUlEQVQoz3VSPUsDQRDNX7SwE/0FYpNGsLPwX1goCobEVKJYpBGSIGghBBLDgQqXGDV33Ff2e5+ze0kImiw8Zmdu5s2b26mAjrUWC6uUgpQKWpeQ5Ks5fJxsnAmEEXMVGH9MkKfFsr6ySiilBGPcJwppwITxd2ONBxzoPMUK3WFJ0rp6xntv7O/G/CEUQhC448BLqtFLDTJBqjWREhTlnNSmODz9QTeSEOS3GxN8DmalQvNPoUCachoPiImgoPhcFCQRO03Vmwh7+yHOu5mPN+9G6AfFeoWOsCg4jeuDPhYqg8tghpz8nHz35+Y9/Kl33tAfpSWh3TCy1o7covclcUSKds8mOLiPUPvmaL0yXDQS6LIEzSDCIBGbCTnny+6cRlczi9upxvH1FFvbAao7AR7qcZlAZe0sR2jM5lfmnPkV0STTrYi1GnEhoDKF4WMBkdM3KylH+/woSfxqrSV01lA3p9KRLqwkqw0R0bsq2k23Wi7OWNl8tf4XR0GylfXWLLIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 45.27027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdElEQVQoz32STUvDQBCG+x+9K3jUg3/Ao9WDN08i4sGDF0tBkEIRVPQkFamoLWLVFlLaxhqTNDX7/Tq7aWvB4IZkdifvPDO7OwXQMMZgaoUQ7tVSQkkxW0shwckaJeEFDM3u2EbgtdFB+BnP4gvzQM45GGNunnCNUapdkHucxkCRq/Yl8dTNdOdHdXhNPwPqHCDnjKoA6rFCI9EIma2aQNLAItb2fCxv9VDxGCStr8sf6LXSfKAQHFHMKBj4Jp/E77BAu7HiVYj1DR/Vh7HzH1c9PLezuc6rME0ZWed0vrtQYLsWYcA0kil8LlHppo2X/igD5p4hbVlruG3e9wWKlQCrpSGWTobYaSQ4PIuwfxBgco0od0K0EvkPcHIpmTz7XEQau6cBFhfesLnSxuNlPBPcJiP4toK8W5bUKhbIuXBzm0CQTcaUhCsM3u3ha0jDXRtZbRTHTvsHOIVqymZBSinXf5klAFllbE9SIpb9tzqrn+/jH/kGsnev5+nlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;全国降水图&quot;
         title=&quot;全国降水图&quot;
-        src=&quot;/Charging/static/85baf5c2eb83de381454ba703c7c681a/fcda8/meteoinfo.png&quot;
-        srcset=&quot;/Charging/static/85baf5c2eb83de381454ba703c7c681a/12f09/meteoinfo.png 148w,
-/Charging/static/85baf5c2eb83de381454ba703c7c681a/e4a3f/meteoinfo.png 295w,
-/Charging/static/85baf5c2eb83de381454ba703c7c681a/fcda8/meteoinfo.png 590w,
-/Charging/static/85baf5c2eb83de381454ba703c7c681a/efc66/meteoinfo.png 885w,
-/Charging/static/85baf5c2eb83de381454ba703c7c681a/c83ae/meteoinfo.png 1180w,
-/Charging/static/85baf5c2eb83de381454ba703c7c681a/e8e04/meteoinfo.png 1270w&quot;
+        src=&quot;/static/85baf5c2eb83de381454ba703c7c681a/fcda8/meteoinfo.png&quot;
+        srcset=&quot;/static/85baf5c2eb83de381454ba703c7c681a/12f09/meteoinfo.png 148w,
+/static/85baf5c2eb83de381454ba703c7c681a/e4a3f/meteoinfo.png 295w,
+/static/85baf5c2eb83de381454ba703c7c681a/fcda8/meteoinfo.png 590w,
+/static/85baf5c2eb83de381454ba703c7c681a/efc66/meteoinfo.png 885w,
+/static/85baf5c2eb83de381454ba703c7c681a/c83ae/meteoinfo.png 1180w,
+/static/85baf5c2eb83de381454ba703c7c681a/e8e04/meteoinfo.png 1270w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -384,26 +384,26 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/Charging/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMj/AP/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QEcMrrL//xAAXEQEBAQEAAAAAAAAAAAAAAAABACFR/9oACAECAQE/EDqFaX//xAAeEAEAAgIBBQAAAAAAAAAAAAABABExYYEhQVHR4f/aAAgBAQABPxBKrg2GDiClXbHqF7iR1GlVWpSDwtYblyIMVw9TMCCKvPyp/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/Charging/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
-        srcset=&quot;/Charging/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
-/Charging/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
-/Charging/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
-/Charging/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
-/Charging/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
-/Charging/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
+/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
+/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
+/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
