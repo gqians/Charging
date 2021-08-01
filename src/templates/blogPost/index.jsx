@@ -80,7 +80,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
 			<div>
-				{/* <ReactCusdis
+				<ReactCusdis
 					attrs={{
 						host: 'https://cusdis.com',
 						appId: '3c2ec840-b9b5-4641-a1c6-62333d79bb39',
@@ -88,7 +88,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 						pageTitle: data.markdownRemark.frontmatter.title,
 						pageUrl: pageContext.slug
 					}}
-				/> */}
+				/>
 			</div>
     </Layout>
   )
