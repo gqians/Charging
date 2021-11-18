@@ -27,7 +27,7 @@ export default {
 			]
 		},
 		{
-			title:'标签云'
+			title:'Spotify'
 		},
 		{
 			title:'主题'

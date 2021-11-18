@@ -56,6 +56,15 @@ const SideBar=(location)=>{
                     })}
                 </div>
             </div>
+						<div className={s.sideBarItem}>
+                <div  className={s.title}>
+                    {config.sideBar[1].title}
+                </div>
+                <div>
+									<iframe src="https://open.spotify.com/embed/artist/1fqb04dI9vaEcGDbIVrcib?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+									</iframe>
+                </div>
+            </div>
             <div className={s.sideBarItem}>
                 <div  className={s.title}>
                     {config.sideBar[2].title}
@@ -66,14 +75,6 @@ const SideBar=(location)=>{
                     />
                 </div>
 						</div>
-            {/* <div className={cn(s.sideBarItem,s.last)}>
-                <div  className={s.title}>
-                    {config.sideBar[1].title}
-                </div>
-                <div>
-                    <CloudTag data={data} location={location}/>
-                </div>
-            </div> */}
         </div>
     )
 }

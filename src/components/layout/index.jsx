@@ -9,14 +9,19 @@ import s from './style.module.css'
 import '../../styles/global.css'
 import BackToTop from './backToTop'
 const Layout = ({ location, title, children }) => {
+	
   useEffect(()=>{
-    // Object.entries(config.theme).forEach(([key, value]) => {
-    //   document.documentElement.style.setProperty(key, value);
-    // });
+    // const options = { 
+		// 	color: 'rgb(180, 180, 180)',
+		// 	invert: true,
+		// 	opacity: 0.1
+		// };
+		// new Blobity(options);
   },[]);
   return (
     <div>
       {/* <header>{header}</header> */}
+			{/* <Blobity></Blobity> */}
       <Header></Header>
       <main className={s.main}>
         <div className={s.content}>

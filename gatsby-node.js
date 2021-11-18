@@ -45,12 +45,12 @@ exports.createPages = async ({ graphql, actions }) => {
     edges: posts,
     createPage: createPage,
     pageTemplate: 'src/templates/index.jsx',
-    pageLength: 3, // This is optional and defaults to 10 if not used
+    pageLength: 6, // This is optional and defaults to 10 if not used
     pathPrefix: '', // This is optional and defaults to an empty string if not used
     context: {}, // This is optional and defaults to an empty object if not used
   })
    // Tag pages:
-   const tagTemplate = path.resolve('./src/templates/tags/index.jsx')
+  const tagTemplate = path.resolve('./src/templates/tags/index.jsx')
   //  let tags = []
   //  // Iterate through each post, putting all found tags into `tags`
   //  _.each(posts, edge => {
