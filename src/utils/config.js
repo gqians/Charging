@@ -38,9 +38,9 @@ export default {
         'font-size': '16px',
         'font-family': 'var(--font-primary)',
         'background-color':'var(--color-bg)',
-		'--color-h': 145,
-		'--color-s': 38,
-		'--color-l': 48,
+		'--color-h': 4.105263157894738,
+		'--color-l': 58.43137254901961,
+		'--color-s': 89.62264150943399,
 		'--color-s-step': -5,
 		'--color-l-step': -1,
 		'--color-0':
