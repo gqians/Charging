@@ -61,7 +61,7 @@ const SideBar=(location)=>{
                     {config.sideBar[1].title}
                 </div>
                 <div>
-									<iframe src="https://open.spotify.com/embed/artist/1fqb04dI9vaEcGDbIVrcib?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+									<iframe src="https://open.spotify.com/embed/artist/1fqb04dI9vaEcGDbIVrcib?utm_source=generator" width="100%" height="300" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
 									</iframe>
                 </div>
             </div>
