@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[学而不思则罔，思而不学则殆。]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Nov 2021 10:44:20 GMT</lastBuildDate><item><title><![CDATA[cesium查找视野内模型]]></title><description><![CDATA[背景 最近遇到一个需求，要求在camera移动的过程中把视野范围内的所有3dtiles单体化后的模型找到。但这很显然是不合理的，因为没有控制视野的长度，理论上camera…]]></description><link>https://www.qds.ink/cesium查找视野内模型/cesium查找视野内模型/</link><guid isPermaLink="false">https://www.qds.ink/cesium查找视野内模型/cesium查找视野内模型/</guid><pubDate>Sat, 20 Nov 2021 18:27:03 GMT</pubDate><content:encoded>&lt;h2&gt;背景&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[学而不思则罔，思而不学则殆。]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 21 Nov 2021 13:34:24 GMT</lastBuildDate><item><title><![CDATA[网桥、交换机、路由器及网关(转载)]]></title><description><![CDATA[中继器（转发器）、集线器、网桥、交换机、路由器及网关介绍及区别 - 程序员大本营]]></description><link>https://www.qds.ink/转发器和路由器/转发器和路由器/</link><guid isPermaLink="false">https://www.qds.ink/转发器和路由器/转发器和路由器/</guid><pubDate>Sun, 21 Nov 2021 20:50:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd7a4b20c8bd1300783dd39ef71d1fcb/8efc2/1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 112.83783783783782%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVQ4y51UyW4aQRDlmkuUaz4h9k8EJ4o/xxJR8hOIK9sBznwESCBAlgAjs5p9sVkEBrPv0516ZRoNOIDskkoz09Xz+r1a2mCxWD4HAoHvPp/vitzo9XqvDn0bO+VGv9//w+PxfDWEw+Gfm81GaprGLoR441jX7znmlUrlt4HYXeODTNBPYrFYiPV6LVar1c4RO+MbAJRKpT8A/IXTERiNRiIej4tmsymenp7YHx8fxfPzM/94wjZQsgNUDGezmcjlcvLl5UUSM0lMJTGW/X6fn/IVVepNvC7sM1SA0+lU5PN5BiJw2W63OTcAx/eHAQHQ6XRkOp1moOVy+T5AlcPxeCySySQD6G0+n7O/myFymEgkZLfblcSWfTKZyF6v9/EcFgqFneT7+3tmdk4yqnxUMkAACGbUPtzQYKcAFahy1YdH2wY5hGSAoNqQDck4BFatVmWr1WKnPpWNRuM4oJIMILC7u7tjYLCt1+sMcnt7K5FntFSxWMQBmCyWSN//l4ycgRnyiBjkDgYDXstkMswS7GiKcJAgQvuAesmpVIolA1QVA5MC1rBarQZpO8donpRcLpcZAHKj0Sj/hEojj2CJNaSD5p4lA/CsZOQM80yXAr/jZ0hECmKxGK4pFENms1m8n5cMIBQDzJTk7aHMCoXDiKqiHJVMbHiW8Q1GkUhkB4xDIDsYDHIakGcwpIofZajhMqXNDEwFEZQzvnRxT+KOJMmCDhFgRS0kCEA8PDy8AbzWjxMqOxwOuUUgl/LK78rwjpxiD57bCdK2o/fXEAqFjGgJYqLBYXSAdmiI0T6OHTrF1sgxFejGYDKZPrnd7m8Oh+PS6XRe2O32C5vNxk+9U5wdMavVuvfEusvlujSbzV/+ARoUfHnZ9DQjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled&quot;
+        title=&quot;Untitled&quot;
+        src=&quot;/static/dd7a4b20c8bd1300783dd39ef71d1fcb/fcda8/1.png&quot;
+        srcset=&quot;/static/dd7a4b20c8bd1300783dd39ef71d1fcb/12f09/1.png 148w,
+/static/dd7a4b20c8bd1300783dd39ef71d1fcb/e4a3f/1.png 295w,
+/static/dd7a4b20c8bd1300783dd39ef71d1fcb/fcda8/1.png 590w,
+/static/dd7a4b20c8bd1300783dd39ef71d1fcb/8efc2/1.png 828w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pianshen.com/article/361925473/&quot;&gt;中继器（转发器）、集线器、网桥、交换机、路由器及网关介绍及区别 - 程序员大本营&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[cesium查找视野内模型]]></title><description><![CDATA[背景 最近遇到一个需求，要求在camera移动的过程中把视野范围内的所有3dtiles单体化后的模型找到。但这很显然是不合理的，因为没有控制视野的长度，理论上camera…]]></description><link>https://www.qds.ink/cesium查找视野内模型/cesium查找视野内模型/</link><guid isPermaLink="false">https://www.qds.ink/cesium查找视野内模型/cesium查找视野内模型/</guid><pubDate>Sat, 20 Nov 2021 18:27:03 GMT</pubDate><content:encoded>&lt;h2&gt;背景&lt;/h2&gt;
 &lt;p&gt;最近遇到一个需求，要求在camera移动的过程中把视野范围内的所有3dtiles单体化后的模型找到。但这很显然是不合理的，因为没有控制视野的长度，理论上camera的视野长度是无限长的，所以最后需求更改为探测合理范围内的模型。&lt;/p&gt;
 &lt;h2&gt;思路&lt;/h2&gt;
 &lt;p&gt;完成这个功能理论上需要将摄像机的视野范围和单体化模型进行碰撞计算，将单体化模型包含或相交于视野的模型找出来即可。首先需要实体化摄像机视野,这里可以采用单独建立一个Cesium.PerspectiveFrustum类来实例化。&lt;/p&gt;
