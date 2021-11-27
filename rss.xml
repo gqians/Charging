@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[学而不思则罔，思而不学则殆。]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Nov 2021 12:52:53 GMT</lastBuildDate><item><title><![CDATA[css reset(转载)]]></title><description><![CDATA[关于css reset的说明，可以参考这篇文章。而且博主这个博客做得真不错。 https://www.joshwcomeau.com/css/custom-css-reset/]]></description><link>https://www.qds.ink/css-reset/</link><guid isPermaLink="false">https://www.qds.ink/css-reset/</guid><pubDate>Thu, 25 Nov 2021 20:51:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[QDS]]></title><description><![CDATA[学而不思则罔，思而不学则殆。]]></description><link>https://www.qds.ink</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Nov 2021 15:11:23 GMT</lastBuildDate><item><title><![CDATA[乱记 2021-11-27]]></title><description><![CDATA[重启跑步减肥计划！！！]]></description><link>https://www.qds.ink/day-2021-11-27/</link><guid isPermaLink="false">https://www.qds.ink/day-2021-11-27/</guid><pubDate>Sat, 27 Nov 2021 22:33:03 GMT</pubDate><content:encoded>&lt;p&gt;重启跑步减肥计划！！！&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b81733e86b9bc63f67a3ea372c9e41b5/0f98f/running.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAbcrM6SMGf/EABoQAAICAwAAAAAAAAAAAAAAAAECABIQERP/2gAIAQEAAQUCJeDpVbaGf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAIDAAAAAAAAAAAAAAAAAAAhAiBh/9oACAEBAAY/AlE0dP/EABoQAQEAAgMAAAAAAAAAAAAAAAERACAhMWH/2gAIAQEAAT8hKhT3I8y5XRLo/9oADAMBAAIAAwAAABBcz//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAwEBPxDEf//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/EKf/xAAaEAADAQEBAQAAAAAAAAAAAAAAARExIXGB/9oACAEBAAE/EJErvDz4MlPSzngzSTPE5DA8Hp//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled&quot;
+        title=&quot;Untitled&quot;
+        src=&quot;/static/b81733e86b9bc63f67a3ea372c9e41b5/1c72d/running.jpg&quot;
+        srcset=&quot;/static/b81733e86b9bc63f67a3ea372c9e41b5/a80bd/running.jpg 148w,
+/static/b81733e86b9bc63f67a3ea372c9e41b5/1c91a/running.jpg 295w,
+/static/b81733e86b9bc63f67a3ea372c9e41b5/1c72d/running.jpg 590w,
+/static/b81733e86b9bc63f67a3ea372c9e41b5/a8a14/running.jpg 885w,
+/static/b81733e86b9bc63f67a3ea372c9e41b5/fbd2c/running.jpg 1180w,
+/static/b81733e86b9bc63f67a3ea372c9e41b5/0f98f/running.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[css reset(转载)]]></title><description><![CDATA[关于css reset的说明，可以参考这篇文章。而且博主这个博客做得真不错。 https://www.joshwcomeau.com/css/custom-css-reset/]]></description><link>https://www.qds.ink/css-reset/</link><guid isPermaLink="false">https://www.qds.ink/css-reset/</guid><pubDate>Thu, 25 Nov 2021 20:51:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;关于css reset的说明，可以参考这篇文章。而且博主这个博客做得真不错。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.joshwcomeau.com/css/custom-css-reset/&quot;&gt;https://www.joshwcomeau.com/css/custom-css-reset/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[M]]></title><link>https://www.qds.ink/music-2021-11-24/</link><guid isPermaLink="false">https://www.qds.ink/music-2021-11-24/</guid><pubDate>Wed, 24 Nov 2021 22:56:03 GMT</pubDate><content:encoded>&lt;iframe src=&quot;https://open.spotify.com/embed/track/3gUSmSBeeYsSMWECJcQW8w?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;380&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[分辨率]]></title><description><![CDATA[在生活中最常听见的分辨率包含了屏幕的分辨率，比如某台电脑分辨率为1980*160…]]></description><link>https://www.qds.ink/分辨率/</link><guid isPermaLink="false">https://www.qds.ink/分辨率/</guid><pubDate>Tue, 23 Nov 2021 23:26:03 GMT</pubDate><content:encoded>&lt;p&gt;在生活中最常听见的分辨率包含了屏幕的分辨率，比如某台电脑分辨率为1980*1600,如下图:&lt;/p&gt;
