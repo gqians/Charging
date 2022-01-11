@@ -16,22 +16,22 @@ export default {
 		],
 		sideBar:[
 			{
-			title:'书签',
-			item:[
-				{title:'github',link:'https://github.com/gqians',icon:github},
-				{title:'twitter',link:'https://twitter.com/gqians',icon: twitter},
-				{title:'medium',link:'https://medium.com/',icon:medium},
-				{title:'DEV',link:'https://dev.to/',icon:dev},
-				{title:'tailwind',link:'https://tailwindcss.com/',icon:tailwindcss},
-				{title:'DeepL',link:'https://www.deepl.com/translator',icon:deepl},
-			]
-		},
-		{
-			title:'Spotify'
-		},
-		{
-			title:'主题'
-		}
+				title:'书签',
+				item:[
+					{title:'github',link:'https://github.com/gqians',icon:github},
+					{title:'twitter',link:'https://twitter.com/gqians',icon: twitter},
+					{title:'medium',link:'https://medium.com/',icon:medium},
+					{title:'DEV',link:'https://dev.to/',icon:dev},
+					{title:'tailwind',link:'https://tailwindcss.com/',icon:tailwindcss},
+					{title:'DeepL',link:'https://www.deepl.com/translator',icon:deepl},
+				]
+			},
+			{
+				title:'Spotify'
+			},
+			{
+				title:'主题'
+			}
 		],
 	musicPath:'./static/少年锦时.mp3',
 	theme: {

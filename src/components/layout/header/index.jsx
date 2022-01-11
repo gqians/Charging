@@ -33,12 +33,18 @@ function Header(){
 					el: vantaRef.current,
 					THREE: THREE,
 					mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 600.0,
-          minWidth: 600.0,
-          scale: 1.0,
-          scaleMobile: 1.0
+					touchControls: true,
+					gyroControls: false,
+					scale: 1.00,
+					scaleMobile: 1.00,
+					backgroundColor: 0x7192f,
+					color1: 0x783816,
+					color2: 0xb3ff,
+					birdSize: 2.10,
+					wingSpan: 27.00,
+					separation: 80.00,
+					alignment: 29.00,
+					cohesion: 20.00
 				})
 			)
     }

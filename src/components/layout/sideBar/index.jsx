@@ -41,27 +41,12 @@ const SideBar=(location)=>{
 		// const location = this.props.location
     return (
         <div className={s.sidebar}>
-            <div className={s.sideBarItem}>
-                <div className={s.title}>
-                    {config.sideBar[0].title}
-                </div>
-                <div className={s.markContainer}>
-                    {config.sideBar[0].item.map((i,key)=>{
-                        return(
-													<a href={i.link} key={key} className={s.a}>
-														<img src={i.icon} className={s.icon} />
-														{/* {i.title} */}
-													</a>
-                        )
-                    })}
-                </div>
-            </div>
 						<div className={s.sideBarItem}>
                 <div  className={s.title}>
                     {config.sideBar[1].title}
                 </div>
                 <div>
-									<iframe src="https://open.spotify.com/embed/artist/1fqb04dI9vaEcGDbIVrcib?utm_source=generator" width="100%" height="300" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+									<iframe src="https://open.spotify.com/embed/track/0b7b3OR4cKHo08rdpLHofM?utm_source=generator" width="100%" height="300" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
 									</iframe>
                 </div>
             </div>
