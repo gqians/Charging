@@ -33,7 +33,7 @@ const Layout = ({ location, title, children }) => {
         </div>
       </main>
       <footer className={s.footer}>
-        © {new Date().getFullYear()}, Built with 汇哥全球后援会,联系我(<a className={s.link} href="mailTo:qianh1250@gmail.com">qianh1250@gmail.com</a>)
+        © {new Date().getFullYear()}, Built with 汇哥全球后援会,联系我(<a className={s.link} href="mailTo:qh@qds.ink">qh@qds.ink</a>)
       <a href="https://www.gatsbyjs.org" className={s.link}>{`   `}搭建基于Gatsby</a>
       </footer>
     </div>
