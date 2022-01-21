@@ -13,11 +13,13 @@
     width:7rem;
     height:7rem;
     margin-left: 7rem;
-    background-image: url('../../../../static/meiba.webp');
+    background-image: url('../../../../static/peep.png');
     background-size:cover;  
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
+		border-radius: 50%;
+		margin-right: 1rem;
 }
 .textLogo{
     display: inline-block;
