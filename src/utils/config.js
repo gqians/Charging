@@ -115,15 +115,15 @@ export default {
 				'hsl(var(--color-nav-bg-h), calc(calc(var(--color-nav-bg-s) + calc(var(--color-nav-bg-s-step) * 3)) * 1%), calc(calc(var(--color-nav-bg-l) + calc(var(--color-nav-bg-l-step) * 3)) * 1%))',
 
 		/* nav text */
-		'--color-nav-text-h': 'var(--color-text-h)',
-		'--color-nav-text-s': 'var(--color-text-s)',
-		'--color-nav-text-l': 'var(--color-text-l)',
-		'--color-nav-text-s-step': 0,
-		'--color-nav-text-l-step': 'var(--color-text-step)',
-		'--color-nav-text':
-				'hsl(var(--color-nav-text-h), calc(calc(var(--color-nav-text-s) + calc(var(--color-nav-text-s-step) * 3)) * 1%), calc(calc(var(--color-nav-text-l) + calc(var(--color-nav-text-l-step) * 3)) * 1%))',
-		'--color-nav-text-active':
-				'hsl(var(--color-nav-text-h), calc(calc(var(--color-nav-text-s) + calc(var(--color-nav-text-s-step) * 0)) * 1%), calc(calc(var(--color-nav-text-l) + calc(var(--color-nav-text-l-step) * 0)) * 1%))',
+		// '--color-nav-text-h': 'var(--color-text-h)',
+		// '--color-nav-text-s': 'var(--color-text-s)',
+		// '--color-nav-text-l': 'var(--color-text-l)',
+		// '--color-nav-text-s-step': 0,
+		// '--color-nav-text-l-step': 'var(--color-text-step)',
+		// '--color-nav-text':
+		// 		'hsl(var(--color-nav-text-h), calc(calc(var(--color-nav-text-s) + calc(var(--color-nav-text-s-step) * 3)) * 1%), calc(calc(var(--color-nav-text-l) + calc(var(--color-nav-text-l-step) * 3)) * 1%))',
+		// '--color-nav-text-active':
+		// 		'hsl(var(--color-nav-text-h), calc(calc(var(--color-nav-text-s) + calc(var(--color-nav-text-s-step) * 0)) * 1%), calc(calc(var(--color-nav-text-l) + calc(var(--color-nav-text-l-step) * 0)) * 1%))',
 
 		/* box colour hsl(213, 64%, 78%) */
 		'--box-bg-h': 'calc(var(--color-h) + 10)',
@@ -153,12 +153,12 @@ export default {
 		'--color-border': 'var(--color-border-1)',
 
 		/** alert colour */
-		'--color-error':
-				'hsl(10, calc(var(--color-s) * 1%), calc(var(--color-l) * 1%))',
-		'--color-warning':
-				'hsl(30, calc(var(--color-s) * 1%), calc(var(--color-l) * 1%))',
-		'--color-success':
-				'hsl(80, calc(var(--color-s) * 1%), calc(var(--color-l) * 1%))',
+		// '--color-error':
+		// 		'hsl(10, calc(var(--color-s) * 1%), calc(var(--color-l) * 1%))',
+		// '--color-warning':
+		// 		'hsl(30, calc(var(--color-s) * 1%), calc(var(--color-l) * 1%))',
+		// '--color-success':
+		// 		'hsl(80, calc(var(--color-s) * 1%), calc(var(--color-l) * 1%))',
 
 		/** text color */
 		'--color-text-h': 'var(--color-h)',
