@@ -59,6 +59,9 @@ a{
   opacity: 1 !important;
   z-index: 100 !important;
 }
+blockquote{
+	margin-left: 0.25rem;
+}
 ::selection{
   background-color: var(--color-2);
   color: white;
