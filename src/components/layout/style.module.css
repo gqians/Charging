@@ -9,6 +9,7 @@
     flex: 1 1 0%;
 		border: 2px solid var(--color-2);
     box-shadow:2px 3px 3px var(--color-2);
+		padding: 0.5rem;
 }
 .sidebar{
     flex-basis: 280px;
@@ -30,6 +31,7 @@
 @media only screen and (max-width: 1000px){
     .main {
         flex-direction: column;
+				margin: 3rem auto;
     }
     .sidebar{
         width: 100%;
