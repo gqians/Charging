@@ -23,7 +23,6 @@ function Header(){
       }
     }
   `);
-	console.log(THREE);
 	const [vantaEffect, setVantaEffect] = useState(0)
   const vantaRef = useRef(null)
   useEffect(() => {

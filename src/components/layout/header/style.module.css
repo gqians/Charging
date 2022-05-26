@@ -5,6 +5,7 @@
     box-shadow: 2px 2px 5px var(--color-2);
     padding: 2em 0 1em;
 		position: relative;
+		content-visibility: auto;
     /* background-image: url('../../../../static/reborn_3.webp'); */
     /* background-size:cover;   */
     /* background-repeat: no-repeat; */
